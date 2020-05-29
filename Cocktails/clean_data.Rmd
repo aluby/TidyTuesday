@@ -1,0 +1,64 @@
+---
+title: '#TidyTuesday'
+author: "Amanda Luby"
+date: "Week of 5/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+boston_cocktails <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-26/boston_cocktails.csv')
+```
+
+```{r}
+eval_frac = function(x){eval(parse(text=as.character(x)))}
+boston_cocktails %>%
+  mutate(measure_clean = str_remove_all(measure, "[a-zA-Z\\-]")) %>%
+  separate(., measure_clean, c("pt1", "pt2"), sep = " ") %>%
+  mutate(
+    pt1 = ifelse(pt1 == "", .01, pt1),
+    pt2 = ifelse(pt2 == ""|is.na(pt2), 0, pt2)) -> bc2
+
+
+bc2 %>%
+  mutate(
+    pt1=purrr::map_dbl(pt1,eval_frac),
+    pt2=purrr::map_dbl(pt2,eval_frac)
+  ) %>%
+  mutate(
+    amount = pt1+pt2
+  ) %>%
+  select(name, category, ingredient_number, ingredient, amount) -> bc2
+
+write_csv(bc2, "cleaned_cocktails.csv")
+boston_cocktails %>%
+        group_by(name) %>%
+        summarize(
+            category = category[1],
+            ingredients = paste(ingredient, collapse = ", ")
+        ) -> long_recipes
+
+write_csv(long_recipes, "cocktails_long_recipes.csv")
+```
+
+```{r}
+plot_cocktail = function(cocktail_name){
+  bc2 %>% filter(name == cocktail_name) %>%
+    ggplot(., aes(x= name, y = amount, fill = ingredient_number, label = ingredient)) +
+    geom_bar(position = "stack", stat = "identity") +
+    geom_text(position = position_stack(vjust=.5), col = "white", family = "Pacifico") +
+    theme_minimal(base_family = "Pacifico")  +
+    theme(legend.position = "none",
+          axis.text.x = element_blank()) +
+    labs(
+      title = cocktail_name,
+      x = " ",
+      y = "Ounces"
+    ) +
+    scale_fill_viridis_c(end =.8, option = "magma")
+}
+```
