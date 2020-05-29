@@ -10,12 +10,16 @@ cocktail_name = "The Oaxaca Old-Fashioned"
 
 # Define UI ----
 ui <- fluidPage(theme = shinytheme("cosmo"),
+                tags$head(HTML('<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">')),
+                tags$head(HTML('<style>* {font-size: 100%; font-family: Pacifico; color:#3B0F70FF;}</style>')),
+                tags$body(HTML('<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">')),
+                tags$body(HTML('<style>* {font-size: 100%; font-family: Roboto Mono;color:#3B0F70FF;}</style>')),
                 titlePanel(div("Choose a Cocktail #TidyTuesday Style", style = "font-family:Pacifico; color:#3B0F70FF")),
                 fluidRow(
                     column(6,div(DT::dataTableOutput("table"), style = "font-size:80%; font-family:Roboto Mono"), height=500),
-                    column(6,p(strong("To choose a cocktail:"),"search for a name, category or ingredient in the table, and then click on a row to see the recipe *as a graph*!", style ="font-family:Roboto Mono; color:#3B0F70FF"),
+                    column(6,p(strong("To choose a cocktail:"),"search for a name, category or ingredient in the table, and then click on a row to see the recipe *as a graph*!"),
                            p("This app was built with ", tags$a(href="https://shiny.rstudio.com", "Shiny"), "for ", tags$a(href="https://github.com/rfordatascience/tidytuesday", "#TidyTuesday"), 
-                             " and code can be found on my ",  tags$a(href="https://github.com/aluby/TidyTuesday", "github"), style ="font-family:Roboto Mono; color:#3B0F70FF"),
+                             " and code can be found on my ",  tags$a(href="https://github.com/aluby/TidyTuesday", "github")),
                                   plotOutput("cocktailPlot")
                            )
                 )
