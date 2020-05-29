@@ -1,0 +1,165 @@
+---
+title: '#TidyTuesday'
+author: "Amanda Luby"
+date: "Week of 5/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggrepel)
+library(grid)
+library(ggtext)
+```
+
+
+```{r}
+vb_matches <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-19/vb_matches.csv', guess_max = 76000)
+```
+
+First thing is to create a new dataset to find summaries for each pair.
+
+```{r}
+pairs_wins <- vb_matches %>%
+  select(circuit, tournament, year, gender, match_num, w_player1, w_player2, l_player1, l_player2) %>%
+  pivot_longer(., c(w_player1, l_player1), values_to = "player_name") %>%
+  separate(name, c("outcome", "player_index")) %>%
+  mutate(
+    partner = ifelse(outcome == "w", w_player2, l_player2)
+  ) %>%
+  unite(., team, c(player_name, partner), remove = FALSE) %>%
+  unite(., team_rev, c(partner, player_name)) %>%
+  select(circuit, tournament, year, gender, match_num, outcome, team, team_rev) %>%
+  #pivot_longer(., c(team, team_rev), values_to = "team") %>% # uncomment to double-add teams
+  #select(-name) %>%
+  group_by(team, year) %>%
+  summarize(
+    team_rev = team_rev[1],
+    gender = gender[1],
+    total_tourn = length(unique(tournament)),
+    wins = sum(outcome == "w"),
+    win_pct = mean(outcome == "w")
+  ) %>%
+  separate(team, c("player1", "partner"), sep = "\\_", remove = FALSE)
+```
+
+Created a list of olympic medalist teams (from Wikipedia). 
+
+```{r}
+olympic_medalists = c(
+  "Ricardo Santos_Emanuel Rego",
+  "Pablo Herrera_Javier Bosma",
+  "Stefan Kobel_Patrick Heuscher",
+  "Phil Dalhausser_Todd Rogers",
+  "Marcio Araujo_Fabio Luiz Magalhaes",
+  "Julius Brink_Jonas Reckermann",
+  "Alison Cerutti_Emanuel Rego",
+  "Martins Plavins_Janis Smedins",
+  "Alison Cerutti_Bruno Oscar Schmidt",
+  "Daniele Lupo_Paolo Nicolai",
+  "Alexander Brouwer_Robert Meeuwsen",
+  "Misty May-Treanor_Kerri Walsh Jennings",
+  "Shelda Bede_Adriana Behar",
+  "Holly McPeak_Elaine Youngs",
+  "Jia Tian_Jie Wang",
+  "Chen Xue_Xi Zhang",
+  "Jennifer Kessy_April Ross",
+  "Juliana Felisberta_Larissa Franca",
+  "Laura Ludwig_Kira Walkenhorst",
+  "Agatha Bednarczuk_Barbara Seixas",
+  "April Ross_Kerri Walsh Jennings"
+)
+```
+
+I'll restrict to pairs that have more than 10 wins, then add another variable to designate whether the team has medaled at the olympics. (Note that I check both orders of player names)
+```{r}
+pairs_wins %>%
+  filter(wins >10) %>%
+  mutate(
+    medalist = ifelse(team %in% olympic_medalists, TRUE, ifelse(team_rev %in% olympic_medalists, TRUE, FALSE))
+  ) -> pairs_data
+```
+
+Let's see whether we can see any trends by looking at team performance across years, split by M/F:
+
+```{r}
+pairs_data %>%
+  #filter(medalist == TRUE) %>%
+  ggplot(., aes(x = year, y = win_pct, size = wins, col = medalist, grp = team)) +
+  geom_point(alpha = .4) +
+  geom_line(size = .5, alpha = .5) + 
+  scale_color_manual(values=c("#999999", "#3e0b80")) + 
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  facet_grid(cols = vars(gender)) 
+
+```
+Medalists have higher win percentages, but it's hard to really see what's going on across time (eg do olympic medalist teams play together longer?)
+
+Let's make another summary by pair, but now create a *single point* for each team, with the x-axis being the number of years they've played together, and the y-axis as their overall win percentage. 
+
+```{r}
+pairs_data %>%
+  ungroup() %>%
+  group_by(team) %>%
+  summarize(
+    gender = gender[1],
+    total_tourn = sum(total_tourn),
+    total_wins = sum(wins),
+    win_pct = sum(wins)/sum(wins/win_pct),
+    years = length(unique(year)),
+    medalist = medalist[1]
+  ) -> pairs_data_summary
+
+mean_winpct= pairs_data_summary %>%
+  ungroup() %>%
+  group_by(gender, medalist) %>%
+  summarize(win_pct = mean(win_pct))
+
+mean_years= pairs_data_summary %>%
+  ungroup() %>%
+  group_by(gender, medalist) %>%
+  summarize(years = mean(years))
+
+pairs_data_summary %>%
+  ggplot(., aes(x = years, y = win_pct, size = total_wins, col = medalist, label = ifelse(medalist, team, ""))) + 
+  geom_jitter(alpha = .65) +
+  geom_hline(aes(yintercept = win_pct, col = medalist), mean_winpct, lty=2) + #add group averages for win_pct
+  geom_vline(aes(xintercept = years, col = medalist), mean_years, lty=2) + #add group averages for years
+  scale_color_manual(values=c("#999999", "#3e0b80")) + 
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  facet_grid(cols = vars(gender))  + 
+  geom_text_repel(size = 2) 
+```
+
+Much better! Now let's make it pretty: 
+
+
+```{r}
+pairs_data_summary %>%
+  mutate(gender = ifelse(gender == "M", "Men", "Women")) %>%
+  ggplot(., aes(x = years, y = win_pct, size = total_wins, col = medalist, label = ifelse(medalist, team, ""))) + 
+  geom_jitter(alpha = .65) +
+  #geom_hline(aes(yintercept = win_pct, col = medalist), mean_winpct, lty=2) + #uncomment to add group averages for win_pct
+  #geom_vline(aes(xintercept = years, col = medalist), mean_years, lty=2) + #uncomment to add group averages for years
+  scale_color_manual(values=c("#999999", "#3e0b80")) + 
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        panel.grid.minor = element_blank(),
+        panel.grid.major = element_blank(),
+        plot.title = element_markdown(lineheight = 1.1),
+        plot.subtitle = element_markdown(lineheight = 1.1),
+        plot.caption = element_markdown(size = 11)) +
+  facet_grid(cols = vars(gender))  + 
+  geom_text_repel(size = 2) + 
+  labs(
+    title = "**Beach Volleyball 2002-2019**",
+    subtitle ="<span style='font-size:11pt'>Years Played and Win Percentage for **<span style='color:#3e0b80;'>Olympic Medalist</span>** and **<span style='color:#999999;'>Non-Medalist</span>** teams</span>",
+    x = "Years Played Together", 
+    y = "Win Percentage",
+    caption = "#TidyTuesday 5/19/2020"
+  ) +
+  guides(color = FALSE)
+```
