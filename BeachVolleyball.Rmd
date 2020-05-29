@@ -6,7 +6,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,
+                      fig.path = "plots/")
 library(tidyverse)
 library(ggrepel)
 library(grid)
@@ -83,7 +84,7 @@ pairs_wins %>%
 
 Let's see whether we can see any trends by looking at team performance across years, split by M/F:
 
-```{r}
+```{r win_pct_by_year}
 pairs_data %>%
   #filter(medalist == TRUE) %>%
   ggplot(., aes(x = year, y = win_pct, size = wins, col = medalist, grp = team)) +
@@ -99,7 +100,7 @@ Medalists have higher win percentages, but it's hard to really see what's going 
 
 Let's make another summary by pair, but now create a *single point* for each team, with the x-axis being the number of years they've played together, and the y-axis as their overall win percentage. 
 
-```{r}
+```{r rough_win_pct_by_years_together}
 pairs_data %>%
   ungroup() %>%
   group_by(team) %>%
@@ -137,15 +138,18 @@ pairs_data_summary %>%
 Much better! Now let's make it pretty: 
 
 
-```{r}
+```{r final_win_pct_by_years_together}
+pos <- position_jitter(width = 0.3, seed = 2)
 pairs_data_summary %>%
-  mutate(gender = ifelse(gender == "M", "Men", "Women")) %>%
+  mutate(gender = ifelse(gender == "M", "Men", "Women"),
+         team = gsub("_", " &\n", team)) %>%
   ggplot(., aes(x = years, y = win_pct, size = total_wins, col = medalist, label = ifelse(medalist, team, ""))) + 
-  geom_jitter(alpha = .65) +
+  geom_point(position = pos, alpha = .6) +
+  geom_point(data = pairs_data_summary[pairs_data_summary$medalist,], position = pos, col = "#3e0b80") %>%
   #geom_hline(aes(yintercept = win_pct, col = medalist), mean_winpct, lty=2) + #uncomment to add group averages for win_pct
   #geom_vline(aes(xintercept = years, col = medalist), mean_years, lty=2) + #uncomment to add group averages for years
   scale_color_manual(values=c("#999999", "#3e0b80")) + 
-  theme_minimal() +
+  theme_minimal(base_family = "Optima") +
   theme(legend.position = "bottom",
         panel.grid.minor = element_blank(),
         panel.grid.major = element_blank(),
@@ -153,7 +157,16 @@ pairs_data_summary %>%
         plot.subtitle = element_markdown(lineheight = 1.1),
         plot.caption = element_markdown(size = 11)) +
   facet_grid(cols = vars(gender))  + 
-  geom_text_repel(size = 2) + 
+  geom_text_repel(position = pos,
+                  size = 2, 
+                  force = 8, 
+                  point.padding = 0, 
+                  box.padding = .5, 
+                  family = "Optima", 
+                  min.segment.length = 0,
+                  xlim = c(-Inf, Inf), 
+                  ylim = c(-Inf, Inf)) + 
+  coord_cartesian(clip = "off") +
   labs(
     title = "**Beach Volleyball 2002-2019**",
     subtitle ="<span style='font-size:11pt'>Years Played and Win Percentage for **<span style='color:#3e0b80;'>Olympic Medalist</span>** and **<span style='color:#999999;'>Non-Medalist</span>** teams</span>",
