@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+library(extrafont)
 ```
 
 ```{r}
@@ -17,11 +18,17 @@ boston_cocktails <- readr::read_csv('https://raw.githubusercontent.com/rfordatas
 ```{r}
 eval_frac = function(x){eval(parse(text=as.character(x)))}
 boston_cocktails %>%
+  mutate( # First get units for measurement
+    units =str_remove_all(measure, "[0-9 /\\-]")
+    )%>%
+  mutate( # Fix bitters measurements
+    units = ifelse(str_detect(ingredient, "bitters") | str_detect(ingredient,"Bitters"), "dash", units)
+  ) %>%
   mutate(measure_clean = str_remove_all(measure, "[a-zA-Z\\-]")) %>%
-  separate(., measure_clean, c("pt1", "pt2"), sep = " ") %>%
+  separate(., measure_clean, c("pt1", "pt2"), sep = " ", remove = FALSE) %>%
   mutate(
     pt1 = ifelse(pt1 == "", .01, pt1),
-    pt2 = ifelse(pt2 == ""|is.na(pt2), 0, pt2)) -> bc2
+    pt2 = ifelse(pt2 == ""|is.na(pt2), 0, pt2))-> bc2
 
 
 bc2 %>%
@@ -29,6 +36,28 @@ bc2 %>%
     pt1=purrr::map_dbl(pt1,eval_frac),
     pt2=purrr::map_dbl(pt2,eval_frac)
   ) %>%
+  mutate(
+    pt1 = case_when(
+      units == "oz" ~ pt1,
+      units == "dash" ~ .02*pt1,
+      units == "dashes" ~ .02*pt1,
+      units == "splash" ~ .1*pt1,
+      units == "tsp" ~ (1/6)*pt1,
+      units == "c" ~ 8*pt1,
+      units == "ml" ~ .02*pt1, 
+      units == "drops" ~ .02*pt1,
+      units == "bottles" ~ 25.6*pt1)) %>%
+  mutate(
+    pt2 = case_when(
+      units == "oz" ~ pt2,
+      units == "dash" ~ .02*pt2,
+      units == "dashes" ~ .02*pt2,
+      units == "splash" ~ .1*pt2,
+      units == "tsp" ~ (1/6)*pt2,
+      units == "c" ~ 8*pt2,
+      units == "ml" ~ .02*pt2, 
+      units == "drops" ~ .02*pt2,
+      units == "bottles" ~ 25.6*pt2)) %>%
   mutate(
     amount = pt1+pt2
   ) %>%

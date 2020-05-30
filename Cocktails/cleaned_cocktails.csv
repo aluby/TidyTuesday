@@ -90,17 +90,17 @@ Tanq-A-Rita,Cocktail Classics,3,Triple Sec,1
 Amaretto Sour,Cordials and Liqueurs,1,Amaretto,1.5
 Amaretto Sour,Cordials and Liqueurs,2,Fresh lemon juice,0.75
 Amaretto Sour,Cordials and Liqueurs,3,Simple Syrup,0.5
-Amaretto Sour,Cordials and Liqueurs,4,Orange half-wheel,1
+Amaretto Sour,Cordials and Liqueurs,4,Orange half-wheel,NA
 Tailspin Cocktail,Cocktail Classics,1,Gin,0.75
 Tailspin Cocktail,Cocktail Classics,2,Sweet Vermouth,0.75
 Tailspin Cocktail,Cocktail Classics,3,Green Chartreuse,0.75
-Tailspin Cocktail,Cocktail Classics,4,Orange Bitters,1
+Tailspin Cocktail,Cocktail Classics,4,Orange Bitters,0.02
 Sweet Patootie Cocktail,Cocktail Classics,1,Gin,1
 Sweet Patootie Cocktail,Cocktail Classics,2,Triple Sec,0.5
 Sweet Patootie Cocktail,Cocktail Classics,3,Orange Juice,1
 Sunshine Cocktail,Cocktail Classics,1,Sweet Vermouth,0.75
 Sunshine Cocktail,Cocktail Classics,2,Gin,1.5
-Sunshine Cocktail,Cocktail Classics,3,Bitters,1
+Sunshine Cocktail,Cocktail Classics,3,Bitters,0.02
 Spring Feeling Cocktail,Cocktail Classics,1,Lemon Juice,1
 Spring Feeling Cocktail,Cocktail Classics,2,Green Chartreuse,0.5
 Spring Feeling Cocktail,Cocktail Classics,3,Gin,1
@@ -112,9 +112,9 @@ Jitterbug Sour,Whiskies,2,Benedictine,0.5
 Jitterbug Sour,Whiskies,3,Fresh lemon juice,0.75
 Jitterbug Sour,Whiskies,4,Honey Syrup,0.5
 Jitterbug Sour,Whiskies,5,Egg White,1
-Jitterbug Sour,Whiskies,6,Angostura Bitters,1
+Jitterbug Sour,Whiskies,6,Angostura Bitters,0.02
 Southern Gin Cocktail,Cocktail Classics,1,Gin,2
-Southern Gin Cocktail,Cocktail Classics,2,Orange Bitters,2
+Southern Gin Cocktail,Cocktail Classics,2,Orange Bitters,0.04
 Southern Gin Cocktail,Cocktail Classics,3,Triple Sec,0.5
 Society Cocktail,Cocktail Classics,1,Gin,1.5
 Society Cocktail,Cocktail Classics,2,Dry Vermouth,0.75
@@ -125,7 +125,7 @@ Snyder,Cocktail Classics,3,Triple Sec,0.5
 Smiler Cocktail,Cocktail Classics,1,Sweet Vermouth,0.5
 Smiler Cocktail,Cocktail Classics,2,Dry Vermouth,0.5
 Smiler Cocktail,Cocktail Classics,3,Gin,1
-Smiler Cocktail,Cocktail Classics,4,Bitters,1
+Smiler Cocktail,Cocktail Classics,4,Bitters,0.02
 Smiler Cocktail,Cocktail Classics,5,Orange Juice,0.25
 Smile Cocktail,Cocktail Classics,1,Grenadine,1
 Smile Cocktail,Cocktail Classics,2,Gin,1
@@ -141,7 +141,7 @@ Irish Whiskey Highball,Whiskies,2,Ginger ale or soda water,1
 Irish Whiskey Highball,Whiskies,3,Lemon twist (optional),1
 Japanese,Brandy,1,Brandy,2
 Japanese,Brandy,2,orgeat or almond syrup,0.5
-Japanese,Brandy,3,Angostura Bitters,2
+Japanese,Brandy,3,Angostura Bitters,0.04
 Roselyn Cocktail,Cocktail Classics,1,Dry Vermouth,0.75
 Roselyn Cocktail,Cocktail Classics,2,Gin,1.5
 Roselyn Cocktail,Cocktail Classics,3,Grenadine,0.5
@@ -150,7 +150,7 @@ Resolute Cocktail,Cocktail Classics,2,Apricot Flavored Brandy,0.5
 Resolute Cocktail,Cocktail Classics,3,Gin,1
 Racquet Club Cocktail,Cocktail Classics,1,Gin,1.5
 Racquet Club Cocktail,Cocktail Classics,2,Dry Vermouth,0.75
-Racquet Club Cocktail,Cocktail Classics,3,Orange Bitters,1
+Racquet Club Cocktail,Cocktail Classics,3,Orange Bitters,0.02
 Amaretto And Cream,Cordials and Liqueurs,1,Amaretto,1.5
 Amaretto And Cream,Cordials and Liqueurs,2,half-and-half,1.5
 Pollyanna Cocktai,Cocktail Classics,1,Orange,3
@@ -165,15 +165,15 @@ Irish Whiskey Cocktail,Whiskies,1,Irish Whiskey,2
 Irish Whiskey Cocktail,Whiskies,2,Triple Sec,0.5
 Irish Whiskey Cocktail,Whiskies,3,Anisette,0.5
 Irish Whiskey Cocktail,Whiskies,4,Maraschino liqueur,0.25
-Irish Whiskey Cocktail,Whiskies,5,Angostura Bitters,1
-Irish Whiskey Cocktail,Whiskies,6,Green olive,1
+Irish Whiskey Cocktail,Whiskies,5,Angostura Bitters,0.02
+Irish Whiskey Cocktail,Whiskies,6,Green olive,NA
 Absinthe Special Cocktail,Cordials and Liqueurs,1,Absinthe,1.5
 Absinthe Special Cocktail,Cordials and Liqueurs,2,Simple Syrup,0.25
-Absinthe Special Cocktail,Cordials and Liqueurs,3,Orange Bitters,1
+Absinthe Special Cocktail,Cordials and Liqueurs,3,Orange Bitters,0.02
 Nineteenth Hole,Cocktail Classics,1,Gin,1.5
 Nineteenth Hole,Cocktail Classics,2,Dry Vermouth,1
 Nineteenth Hole,Cocktail Classics,3,Sweet Vermouth,1
-Nineteenth Hole,Cocktail Classics,4,Bitters,1
+Nineteenth Hole,Cocktail Classics,4,Bitters,0.02
 Montreal Club Bouncer,Cocktail Classics,1,Gin,1.5
 Montreal Club Bouncer,Cocktail Classics,2,Anisette,0.5
 Monte Carlo Imperial Highball,Cocktail Classics,1,Gin,2
@@ -184,7 +184,7 @@ Irish Shillelagh,Whiskies,2,Light Rum,1
 Irish Shillelagh,Whiskies,3,Sloe gin,0.5
 Irish Shillelagh,Whiskies,4,Fresh lemon juice,1
 Irish Shillelagh,Whiskies,5,Simple Syrup,0.5
-Irish Shillelagh,Whiskies,6,"Fresh raspberries and strawberries, 2 peach slices, maraschino cherry",1
+Irish Shillelagh,Whiskies,6,"Fresh raspberries and strawberries, 2 peach slices, maraschino cherry",NA
 Melon Cocktail,Cocktail Classics,1,Gin,2
 Melon Cocktail,Cocktail Classics,2,Lemon Juice,0.25
 Melon Cocktail,Cocktail Classics,3,Maraschino,0.25
@@ -214,7 +214,7 @@ Incider Cocktail,Whiskies,3,Apple slice,1
 Kup's Indispensable Cocktail,Cocktail Classics,1,Light Vermouth,0.5
 Kup's Indispensable Cocktail,Cocktail Classics,2,Dry Vermouth,0.5
 Kup's Indispensable Cocktail,Cocktail Classics,3,Gin,1.5
-Kup's Indispensable Cocktail,Cocktail Classics,4,Bitters,1
+Kup's Indispensable Cocktail,Cocktail Classics,4,Bitters,0.02
 Knock-Out Cocktail,Cocktail Classics,1,Anisette,0.5
 Knock-Out Cocktail,Cocktail Classics,2,Gin,0.75
 Knock-Out Cocktail,Cocktail Classics,3,Dry Vermouth,0.75
@@ -278,11 +278,11 @@ Horse's Neck (With A Kick),Whiskies,3,Ginger ale,1
 Gin and It,Cocktail Classics,1,Gin,2
 Gin and It,Cocktail Classics,2,Sweet Vermouth,1
 Gin Cocktail,Cocktail Classics,1,Gin,2
-Gin Cocktail,Cocktail Classics,2,Bitters,2
+Gin Cocktail,Cocktail Classics,2,Bitters,0.04
 West Side,Vodka,1,lemon-flavored vodka,1.5
 West Side,Vodka,2,Fresh lemon juice,0.75
 West Side,Vodka,3,Simple Syrup,0.5
-West Side,Vodka,4,Fresh mint leaves,6
+West Side,Vodka,4,Fresh mint leaves,NA
 Gimlet,Cocktail Classics,1,Lime Juice,1
 Gimlet,Cocktail Classics,2,Powdered Sugar,1
 Gimlet,Cocktail Classics,3,Gin,1.5
@@ -315,15 +315,15 @@ Favorite Cocktail,Cocktail Classics,4,Lemon Juice,0.25
 Farmer's Cocktail,Cocktail Classics,1,Gin,1
 Farmer's Cocktail,Cocktail Classics,2,Dry Vermouth,0.5
 Farmer's Cocktail,Cocktail Classics,3,Sweet Vermouth,0.5
-Farmer's Cocktail,Cocktail Classics,4,Bitters,2
+Farmer's Cocktail,Cocktail Classics,4,Bitters,0.04
 Warsaw Cocktail,Vodka,1,Vodka,1.5
 Warsaw Cocktail,Vodka,2,Blackberry-flavored brandy,0.5
 Warsaw Cocktail,Vodka,3,Dry Vermouth,0.5
 Warsaw Cocktail,Vodka,4,Fresh lemon juice,1
 Emerald Isle Cocktail,Cocktail Classics,1,Gin,2
 Emerald Isle Cocktail,Cocktail Classics,2,Green creme de menthe,1
-Emerald Isle Cocktail,Cocktail Classics,3,Bitters,3
-Du Barry Cocktail,Cocktail Classics,1,Bitters,1
+Emerald Isle Cocktail,Cocktail Classics,3,Bitters,0.06
+Du Barry Cocktail,Cocktail Classics,1,Bitters,0.02
 Du Barry Cocktail,Cocktail Classics,2,Dry Vermouth,0.75
 Du Barry Cocktail,Cocktail Classics,3,Anisette,0.5
 Du Barry Cocktail,Cocktail Classics,4,Gin,1.5
@@ -333,13 +333,13 @@ Dixie Cocktail,Cocktail Classics,1,Juice of Orange,0.25
 Dixie Cocktail,Cocktail Classics,2,Anisette,1
 Dixie Cocktail,Cocktail Classics,3,Dry Vermouth,0.5
 Dixie Cocktail,Cocktail Classics,4,Gin,1
-Delmonico No. 2,Cocktail Classics,1,Orange Bitters,1
+Delmonico No. 2,Cocktail Classics,1,Orange Bitters,0.02
 Delmonico No. 2,Cocktail Classics,2,Dry Vermouth,1
 Delmonico No. 2,Cocktail Classics,3,Gin,1.5
 Hole-In-One,Whiskies,1,Blended Scotch Whiskey,1.75
 Hole-In-One,Whiskies,2,Dry Vermouth,0.75
 Hole-In-One,Whiskies,3,Fresh lemon juice,0.25
-Hole-In-One,Whiskies,4,Orange Bitters,1
+Hole-In-One,Whiskies,4,Orange Bitters,0.02
 Vodka Stinger,Vodka,1,Vodka,1
 Vodka Stinger,Vodka,2,White creme de menthe,1
 Caruso,Cocktail Classics,1,Gin,1.5
@@ -361,7 +361,7 @@ Hill Dog,Whiskies,2,Grand Marnier,0.5
 Hill Dog,Whiskies,3,Dry Sherry,0.5
 Hill Dog,Whiskies,4,Lavender Syrup,0.5
 Blue Devil Cocktail,Cocktail Classics,1,Gin,1
-Blue Devil Cocktail,Cocktail Classics,2,Juice of Lemon or Lime,0.5
+Blue Devil Cocktail,Cocktail Classics,2,Juice of Lemon or Lime,NA
 Blue Devil Cocktail,Cocktail Classics,3,Maraschino,1
 Blue Devil Cocktail,Cocktail Classics,4,Blue curacao,0.5
 Blue Canary,Cocktail Classics,1,Gin,0.75
@@ -369,7 +369,7 @@ Blue Canary,Cocktail Classics,2,Grapefruit Juice,3
 Blue Canary,Cocktail Classics,3,Blue curacao,1
 Blue Bird,Cocktail Classics,1,Gin,1.5
 Blue Bird,Cocktail Classics,2,Triple Sec,0.5
-Blue Bird,Cocktail Classics,3,Bitters,1
+Blue Bird,Cocktail Classics,3,Bitters,0.02
 Bloodhound Cocktail,Cocktail Classics,1,Dry Vermouth,0.5
 Bloodhound Cocktail,Cocktail Classics,2,Sweet Vermouth,0.5
 Bloodhound Cocktail,Cocktail Classics,3,Gin,1
@@ -378,7 +378,7 @@ Billy Taylor,Cocktail Classics,2,Gin,2
 Bijou Cocktail,Cocktail Classics,1,Gin,0.75
 Bijou Cocktail,Cocktail Classics,2,Green Chartreuse,0.75
 Bijou Cocktail,Cocktail Classics,3,Sweet Vermouth,0.75
-Bijou Cocktail,Cocktail Classics,4,Orange Bitters,1
+Bijou Cocktail,Cocktail Classics,4,Orange Bitters,0.02
 Bermuda Rose,Cocktail Classics,1,Gin,1.25
 Bermuda Rose,Cocktail Classics,2,Apricot Flavored Brandy,1.5
 Bermuda Rose,Cocktail Classics,3,Grenadine,1.5
@@ -422,14 +422,14 @@ Singapore Sling,Cocktail Classics,2,Powdered Sugar,1
 Singapore Sling,Cocktail Classics,3,Gin,2
 Singapore Sling,Cocktail Classics,5,cherry-flavored brandy,0.5
 Saratoga Cocktail,Cocktail Classics,1,Brandy,2
-Saratoga Cocktail,Cocktail Classics,2,Bitters,2
+Saratoga Cocktail,Cocktail Classics,2,Bitters,0.04
 Saratoga Cocktail,Cocktail Classics,3,Lemon Juice,1
 Saratoga Cocktail,Cocktail Classics,4,Pineapple Juice,1
 Saratoga Cocktail,Cocktail Classics,5,Maraschino,0.5
 High Cotton,Whiskies,1,Straight rye whiskey,2
 High Cotton,Whiskies,2,Pimm's No. 1 Cup,0.5
 High Cotton,Whiskies,3,Dubonnet Rouge,0.5
-High Cotton,Whiskies,4,Peach bitters,2
+High Cotton,Whiskies,4,Peach bitters,0.04
 Polonaise,Cocktail Classics,1,Brandy,1.5
 Polonaise,Cocktail Classics,2,Blackberry-flavored brandy,1
 Polonaise,Cocktail Classics,3,Dry Sherry,0.5
@@ -450,7 +450,7 @@ Hebrides,Whiskies,2,Maraschino liqueur,0.5
 Hebrides,Whiskies,3,Triple Sec,0.5
 Hebrides,Whiskies,4,Apple juice,2
 Hebrides,Whiskies,5,Fresh lemon juice,0.5
-Hebrides,Whiskies,6,Angostura Bitters,1
+Hebrides,Whiskies,6,Angostura Bitters,0.02
 Hennessy Martini,Cocktail Classics,1,Hennessy V.S Cognac,2
 Hennessy Martini,Cocktail Classics,2,Lemon Juice,0.5
 Vodka Daisy,Vodka,1,Vodka,2
@@ -497,7 +497,7 @@ Vodka Collins,Vodka,1,Vodka,2
 Vodka Collins,Vodka,2,Fresh lemon juice,0.75
 Vodka Collins,Vodka,3,Simple Syrup,0.75
 Brandy Crusta Cocktail,Cocktail Classics,1,Maraschino,1
-Brandy Crusta Cocktail,Cocktail Classics,2,Bitters,1
+Brandy Crusta Cocktail,Cocktail Classics,2,Bitters,0.02
 Brandy Crusta Cocktail,Cocktail Classics,3,Lemon Juice,1
 Brandy Crusta Cocktail,Cocktail Classics,4,Triple Sec,0.5
 Brandy Crusta Cocktail,Cocktail Classics,5,Brandy,2
@@ -506,7 +506,7 @@ Heather Blush,Whiskies,2,Strawberry liqueur,1
 Heather Blush,Whiskies,3,Chilled sparkling wine,3
 Jack Maples,Brandy,1,Applejack,2
 Jack Maples,Brandy,2,maple syrup (grade B or medium-amber),1
-Jack Maples,Brandy,3,Aromatic bitters,1
+Jack Maples,Brandy,3,Aromatic bitters,0.02
 Brandy Alexander,Cocktail Classics,1,Creme de Cacao (Brown),0.5
 Brandy Alexander,Cocktail Classics,2,Brandy,0.5
 Brandy Alexander,Cocktail Classics,3,Heavy cream,0.5
@@ -525,13 +525,13 @@ Harvest Moon,Whiskies,1,Straight rye whiskey,1.5
 Harvest Moon,Whiskies,2,Lillet Blanc,1
 Harvest Moon,Whiskies,3,Apple Brandy,0.5
 Harvest Moon,Whiskies,4,Green Chartreuse,0.25
-Harvest Moon,Whiskies,5,Angostura Bitters,2
+Harvest Moon,Whiskies,5,Angostura Bitters,0.04
 Red Raider,Cocktail Classics,1,Bourbon,1
 Red Raider,Cocktail Classics,2,Triple Sec,0.5
 Red Raider,Cocktail Classics,3,Lemon Juice,1
 Red Raider,Cocktail Classics,4,Grenadine,1
 Vodka and Apple Juice,Vodka,1,Vodka,2
-Mint Julep (Southern Style),Cocktail Classics,1,springs mint,5
+Mint Julep (Southern Style),Cocktail Classics,1,springs mint,NA
 Mint Julep (Southern Style),Cocktail Classics,2,Powdered Sugar,1
 Mint Julep (Southern Style),Cocktail Classics,3,Water,2
 Mint Julep (Southern Style),Cocktail Classics,4,Bourbon,2.5
@@ -561,8 +561,8 @@ Bourbon and Water,Cocktail Classics,2,Water,4
 Greenpoint,Whiskies,1,Straight rye whiskey,2
 Greenpoint,Whiskies,2,Yellow Chartreuse,0.5
 Greenpoint,Whiskies,3,Sweet Vermouth,0.5
-Greenpoint,Whiskies,4,Angostura Bitters,1
-Greenpoint,Whiskies,5,Orange Bitters,1
+Greenpoint,Whiskies,4,Angostura Bitters,0.02
+Greenpoint,Whiskies,5,Orange Bitters,0.02
 Yellowjacket,Non-alcoholic Drinks,1,Pineapple Juice,2
 Yellowjacket,Non-alcoholic Drinks,2,Orange Juice,2
 Yellowjacket,Non-alcoholic Drinks,3,Lemon Juice,0.5
@@ -573,8 +573,8 @@ Velvet Peach Hammer,Vodka,4,Fresh lemon juice,0.5
 Grandfather,Whiskies,1,Bourbon whiskey,1
 Grandfather,Whiskies,2,Applejack,1
 Grandfather,Whiskies,3,Sweet Vermouth,1
-Grandfather,Whiskies,4,Angostura Bitters,1
-Grandfather,Whiskies,5,Peychaud's Bitters,1
+Grandfather,Whiskies,4,Angostura Bitters,0.02
+Grandfather,Whiskies,5,Peychaud's Bitters,0.02
 Goldrush,Whiskies,1,Bourbon whiskey,2
 Goldrush,Whiskies,2,Fresh lemon juice,0.75
 Goldrush,Whiskies,3,Honey Syrup,1
@@ -584,7 +584,7 @@ Godfather,Whiskies,1,Blended Scotch Whiskey,1.5
 Godfather,Whiskies,2,Amaretto,0.75
 Jack-In-The-Box,Brandy,1,Applejack,1
 Jack-In-The-Box,Brandy,2,Pineapple Juice,1
-Jack-In-The-Box,Brandy,3,Angostura Bitters,1
+Jack-In-The-Box,Brandy,3,Angostura Bitters,0.02
 Saronno,Cocktail Classics,1,Amaretto di Saronno,1
 Saronno,Cocktail Classics,2,Mr. Boston Five Star Brandy,1
 Saronno,Cocktail Classics,3,Light cream,1
@@ -599,7 +599,7 @@ Gilchrist,Whiskies,1,Blended Scotch Whiskey,1.5
 Gilchrist,Whiskies,2,Pear brandy,0.75
 Gilchrist,Whiskies,3,Grapefruit Juice,0.75
 Gilchrist,Whiskies,4,Amaro,0.5
-Gilchrist,Whiskies,5,Grapefruit bitters,2
+Gilchrist,Whiskies,5,Grapefruit bitters,0.04
 Frisco Sour,Whiskies,1,Bourbon or Rye Whiskey,2
 Frisco Sour,Whiskies,2,Fresh lemon juice,0.75
 Frisco Sour,Whiskies,3,Fresh Lime Juice,0.5
@@ -613,13 +613,13 @@ Francis The Mule,Whiskies,1,Bourbon whiskey,2
 Francis The Mule,Whiskies,2,Coffee liqueur,0.5
 Francis The Mule,Whiskies,3,Fresh lemon juice,0.5
 Francis The Mule,Whiskies,4,orgeat or almond syrup,0.25
-Francis The Mule,Whiskies,5,Orange Bitters,2
+Francis The Mule,Whiskies,5,Orange Bitters,0.04
 Fox River Cocktail,Whiskies,1,Bourbon or Rye Whiskey,2
 Fox River Cocktail,Whiskies,2,Dark creme de cacao,0.5
-Fox River Cocktail,Whiskies,3,Angostura Bitters,4
+Fox River Cocktail,Whiskies,3,Angostura Bitters,0.08
 Flying Scotchman,Whiskies,1,Blended Scotch Whiskey,1
 Flying Scotchman,Whiskies,2,Sweet Vermouth,1
-Flying Scotchman,Whiskies,3,Angostura Bitters,1
+Flying Scotchman,Whiskies,3,Angostura Bitters,0.02
 Flying Scotchman,Whiskies,4,Simple Syrup,0.25
 The Final Ward,Whiskies,1,Straight rye whiskey,0.75
 The Final Ward,Whiskies,2,Maraschino liqueur,0.75
@@ -628,14 +628,14 @@ The Final Ward,Whiskies,4,Fresh lemon juice,0.75
 Martini,Cocktail Classics,1,Mr. Boston Gin,1.5
 Martini,Cocktail Classics,2,Dry Vermouth,0.75
 Fancy Whiskey,Whiskies,1,Bourbon or rye whiskey,2
-Fancy Whiskey,Whiskies,2,Angostura Bitters,1
+Fancy Whiskey,Whiskies,2,Angostura Bitters,0.02
 Fancy Whiskey,Whiskies,3,Triple Sec,0.25
 Fancy Whiskey,Whiskies,4,Simple Syrup,0.25
 Fancy Whiskey,Whiskies,5,Lemon twist,1
 Mandarine Sour,Cocktail Classics,1,Mandarine Napoleon Liqueur,2
 Mandarine Sour,Cocktail Classics,2,Lemon Juice,1
 Mandarine Mist,Cocktail Classics,1,Mandarine Napoleon Liqueur,1.5
-Underneath The Mango Tree,Vodka,1,"Lime wedge, Sweet Chili Powder",0.01
+Underneath The Mango Tree,Vodka,1,"Lime wedge, Sweet Chili Powder",NA
 Underneath The Mango Tree,Vodka,2,Mango-flavored vodka,1
 Underneath The Mango Tree,Vodka,3,Peach liqueur,0.5
 Underneath The Mango Tree,Vodka,4,Fresh Lime Juice,0.75
@@ -643,8 +643,8 @@ Underneath The Mango Tree,Vodka,5,Simple Syrup,0.5
 Underneath The Mango Tree,Vodka,6,Ginger ale,2
 Fancy-Free Cocktail,Whiskies,1,Bourbon whiskey,2
 Fancy-Free Cocktail,Whiskies,2,Maraschino liqueur,0.5
-Fancy-Free Cocktail,Whiskies,3,Angostura Bitters,1
-Fancy-Free Cocktail,Whiskies,4,Orange Bitters,1
+Fancy-Free Cocktail,Whiskies,3,Angostura Bitters,0.02
+Fancy-Free Cocktail,Whiskies,4,Orange Bitters,0.02
 Honeymoon Cocktail,Brandy,1,Apple Brandy,0.75
 Honeymoon Cocktail,Brandy,2,Benedictine,0.75
 Honeymoon Cocktail,Brandy,3,Fresh lemon juice,0.75
@@ -658,7 +658,7 @@ Everybody's Irish Cocktail,Whiskies,4,Green olive,1
 Trident,Vodka,1,Aquavit or vodka,1
 Trident,Vodka,2,Cynar,0.5
 Trident,Vodka,3,Dry Sherry,1
-Trident,Vodka,4,Peach bitters,2
+Trident,Vodka,4,Peach bitters,0.04
 Top Banana,Vodka,1,Vodka,1
 Top Banana,Vodka,2,Creme de banana,1
 Top Banana,Vodka,3,Orange juice,2
@@ -669,7 +669,7 @@ Emperor Norton's Mistress,Whiskies,4,Triple Sec,0.25
 Easterner,Whiskies,1,Straight rye whiskey,2
 Easterner,Whiskies,2,Fresh grapefruit juice,1
 Easterner,Whiskies,3,Maple Syrup,0.5
-Toasted Drop,Vodka,1,"Lemon wedge, Cinnamon Sugar",0.01
+Toasted Drop,Vodka,1,"Lemon wedge, Cinnamon Sugar",NA
 Toasted Drop,Vodka,2,Citrus-flavored vodka,1.5
 Toasted Drop,Vodka,3,Limoncello,0.75
 Toasted Drop,Vodka,4,Amaretto,0.25
@@ -687,7 +687,7 @@ K. C. B. Cocktail,Cocktail Classics,4,Lemon Juice,0.25
 Easter Elchies,Whiskies,1,Single-malt Scotch whisky,2
 Easter Elchies,Whiskies,2,Cherry Heering,0.5
 Easter Elchies,Whiskies,3,Punt e Mes,0.5
-Easter Elchies,Whiskies,4,Orange Bitters,1
+Easter Elchies,Whiskies,4,Orange Bitters,0.02
 Dufftown Flip,Whiskies,1,Blended Scotch Whiskey,2
 Dufftown Flip,Whiskies,2,Port,0.5
 Dufftown Flip,Whiskies,3,Demerara Syrup,0.5
@@ -702,12 +702,12 @@ The Duboudreau Cocktail,Whiskies,4,Elderflower liqueur,0.25
 Irish Whisky,Cocktail Classics,1,Mr. Boston Triple Sec,0.5
 Irish Whisky,Cocktail Classics,2,Absinthe Substitute,0.5
 Irish Whisky,Cocktail Classics,3,Maraschino,0.25
-Irish Whisky,Cocktail Classics,4,Bitters,1
+Irish Whisky,Cocktail Classics,4,Bitters,0.02
 Irish Whisky,Cocktail Classics,5,Irish Whiskey,2
 Dubliner,Whiskies,1,Irish Whiskey,2
 Dubliner,Whiskies,2,Sweet Vermouth,0.5
 Dubliner,Whiskies,3,Grand Marnier,0.5
-Dubliner,Whiskies,4,Orange Bitters,2
+Dubliner,Whiskies,4,Orange Bitters,0.04
 Double Standard Sour,Whiskies,1,Rye or bourbon whiskey,0.75
 Double Standard Sour,Whiskies,2,Gin,0.75
 Double Standard Sour,Whiskies,3,Fresh lemon juice,1
@@ -718,7 +718,7 @@ Dixie Whiskey Cocktail,Whiskies,1,Bourbon whiskey,2
 Dixie Whiskey Cocktail,Whiskies,2,White creme de menthe,0.5
 Dixie Whiskey Cocktail,Whiskies,3,Triple Sec,0.5
 Dixie Whiskey Cocktail,Whiskies,4,Simple Syrup,0.25
-Dixie Whiskey Cocktail,Whiskies,5,Angostura Bitters,1
+Dixie Whiskey Cocktail,Whiskies,5,Angostura Bitters,0.02
 Hill Billy Highball,Cocktail Classics,1,Georgia Moon Corn Whiskey,2
 The Titian,Vodka,1,Orange-flavored vodka,1
 The Titian,Vodka,2,Grand Marnier,0.5
@@ -740,7 +740,7 @@ Thyme Collins,Vodka,5,Bitter lemon soda,3
 Thyme Collins,Vodka,6,Long thyme sprigs,2
 Tabby Cat,Vodka,1,Dubonnet Rouge,2
 Tabby Cat,Vodka,2,Orange-flavored vodka,1
-Tabby Cat,Vodka,3,Orange Bitters,2
+Tabby Cat,Vodka,3,Orange Bitters,0.04
 God Child,Cocktail Classics,1,Amaretto di Saronno,1
 God Child,Cocktail Classics,2,Mr. Boston Vodka,1
 God Child,Cocktail Classics,3,Heavy cream,1
@@ -755,7 +755,7 @@ Harvard Cocktail,Brandy,1,Brandy,1.5
 Harvard Cocktail,Brandy,2,Sweet Vermouth,0.75
 Harvard Cocktail,Brandy,3,Fresh lemon juice,0.5
 Harvard Cocktail,Brandy,4,Grenadine,1
-Harvard Cocktail,Brandy,5,Angostura Bitters,1
+Harvard Cocktail,Brandy,5,Angostura Bitters,0.02
 Gin and Milk Punch,Cocktail Classics,1,Powdered Sugar,1
 Gin and Milk Punch,Cocktail Classics,2,Mr. Boston Gin,2
 Gin and Milk Punch,Cocktail Classics,3,Milk,1
@@ -782,7 +782,7 @@ Devil's Soul,Whiskies,5,Elderflower liqueur,0.25
 Deshler,Whiskies,1,Straight rye whiskey,1.5
 Deshler,Whiskies,2,Dubonnet Rouge,0.5
 Deshler,Whiskies,3,Triple Sec,0.25
-Deshler,Whiskies,4,Angostura Bitters,2
+Deshler,Whiskies,4,Angostura Bitters,0.04
 T.N.T. No. 1,Cocktail Classics,1,Old Thompson Blended Whiskey,1.5
 T.N.T. No. 1,Cocktail Classics,2,Absinthe Substitute,1.5
 Stupid Cupid,Vodka,1,Citrus-flavored vodka,2
@@ -791,8 +791,8 @@ Stupid Cupid,Vodka,3,Simple Syrup,1
 Stupid Cupid,Vodka,4,Fresh lemon juice,1
 Derby,Whiskies,1,Bourbon whiskey,2
 Derby,Whiskies,2,Benedictine,0.25
-Derby,Whiskies,3,Angostura Bitters,1
-Stockholm 75,Vodka,1,"Lemon wedge, superfine sugar",0.01
+Derby,Whiskies,3,Angostura Bitters,0.02
+Stockholm 75,Vodka,1,"Lemon wedge, superfine sugar",NA
 Stockholm 75,Vodka,2,Citrus-flavored vodka,0.75
 Stockholm 75,Vodka,3,Simple Syrup,0.75
 Stockholm 75,Vodka,4,Fresh lemon juice,0.75
@@ -807,12 +807,12 @@ Sputnik,Vodka,3,Fresh orange juice,3
 Sputnik,Vodka,4,half-and-half,3
 Gotham,Brandy,1,Absinthe or pastis,1
 Gotham,Brandy,2,Brandy,3
-Gotham,Brandy,3,Peach bitters,3
+Gotham,Brandy,3,Peach bitters,0.06
 De La Louisiane,Whiskies,1,Straight rye whiskey,0.75
 De La Louisiane,Whiskies,2,Sweet Vermouth,0.75
 De La Louisiane,Whiskies,3,Benedictine,0.75
 De La Louisiane,Whiskies,4,Absinthe or pastis,3
-De La Louisiane,Whiskies,5,Peychaud's Bitters,3
+De La Louisiane,Whiskies,5,Peychaud's Bitters,0.06
 The Debonair,Whiskies,1,Single-malt Scotch whisky,2.5
 The Debonair,Whiskies,2,Ginger liqueur,1
 Soviet,Vodka,1,Vodka,1.5
@@ -831,7 +831,7 @@ Sonic Blaster,Vodka,6,Cranberry Juice,1
 Creole Lady,Whiskies,1,Bourbon whiskey,1.5
 Creole Lady,Whiskies,2,Madeira,1.5
 Creole Lady,Whiskies,3,Grenadine,1
-Rum Coooler,Cocktail Classics,1,powdered sugar,0.5
+Rum Coooler,Cocktail Classics,1,powdered sugar,0.08333333333333333
 Rum Coooler,Cocktail Classics,2,carbonated water,2
 Rum Coooler,Cocktail Classics,3,Mr. Boston Rum,1
 Siberian Sleighride,Vodka,1,Vodka,1.25
@@ -842,7 +842,7 @@ Cotton Club Flip,Whiskies,1,Vanilla-Infused Bourbon,2
 Cotton Club Flip,Whiskies,2,Honey-Currant Syrup,0.5
 Cotton Club Flip,Whiskies,3,Fresh Lime Juice,0.75
 Cotton Club Flip,Whiskies,4,Egg White,1
-Cotton Club Flip,Whiskies,5,Rhubarb bitters,2
+Cotton Club Flip,Whiskies,5,Rhubarb bitters,0.04
 Golden Dawn,Brandy,1,Apple Brandy,1
 Golden Dawn,Brandy,2,Apricot-Flavored Brandy,0.5
 Golden Dawn,Brandy,3,Gin,0.5
@@ -871,12 +871,12 @@ Screwdriver,Vodka,1,Vodka,1.5
 Screwdriver,Vodka,2,Orange juice,5
 Coffee Old-Fashioned,Whiskies,1,Bourbon whiskey,2
 Coffee Old-Fashioned,Whiskies,2,Simple Syrup,0.75
-Coffee Old-Fashioned,Whiskies,3,Angostura Bitters,2
+Coffee Old-Fashioned,Whiskies,3,Angostura Bitters,0.04
 Coffee Old-Fashioned,Whiskies,4,Cold brewed coffee,1
 Coffee Old-Fashioned,Whiskies,5,Soda water,2
 Dry Martini,Cocktail Classics,1,Mr. Boston Gin,1.6666666666666665
 Dry Martini,Cocktail Classics,2,Dry Vermouth,0.3333333333333333
-Salty Dog,Vodka,1,"Lemon wedge, coarse salt",0.01
+Salty Dog,Vodka,1,"Lemon wedge, coarse salt",NA
 Salty Dog,Vodka,2,Vodka,1.5
 Salty Dog,Vodka,3,Grapefruit Juice,5
 Dr. Cook,Cocktail Classics,1,Mr. Boston Gin,0.75
@@ -916,7 +916,7 @@ Russian Bear Cocktail,Vodka,3,half-and-half,0.5
 Character Development,Whiskies,1,Scotch Whiskey,2
 Character Development,Whiskies,2,Coconut liqueur,0.5
 Character Development,Whiskies,3,Dry Sherry,0.5
-Character Development,Whiskies,4,Grapefruit bitters,2
+Character Development,Whiskies,4,Grapefruit bitters,0.04
 Ruby Red,Vodka,1,Grapefruit-flavored vodka,2
 Ruby Red,Vodka,2,Triple Sec,1.5
 Ruby Red,Vodka,3,Fresh ruby red grapefruit juice,1.5
@@ -925,8 +925,8 @@ Chaplin,Whiskies,1,Bourbon whiskey,0.75
 Chaplin,Whiskies,2,Dry Sherry,0.75
 Chaplin,Whiskies,3,Ramazzotti Amaro,0.75
 Chaplin,Whiskies,4,Triple Sec,1
-Chaplin,Whiskies,5,Orange Bitters,2
-Rouxby Red,Vodka,1,"For glass Lemon wedge, coarse salt",0.01
+Chaplin,Whiskies,5,Orange Bitters,0.04
+Rouxby Red,Vodka,1,"For glass Lemon wedge, coarse salt",NA
 Rouxby Red,Vodka,2,Grapefruit-flavored vodka,1.5
 Rouxby Red,Vodka,3,Fresh lemon juice,0.25
 Rouxby Red,Vodka,4,Grapefruit Juice,0.75
@@ -947,19 +947,19 @@ Robin's Nest,Vodka,3,White creme de cacao,0.5
 Chancellor Cocktail,Whiskies,1,Blended Scotch Whiskey,1.5
 Chancellor Cocktail,Whiskies,2,Dry Vermouth,0.5
 Chancellor Cocktail,Whiskies,3,Tawny port,0.5
-Chancellor Cocktail,Whiskies,4,Peychaud's Bitters,1
+Chancellor Cocktail,Whiskies,4,Peychaud's Bitters,0.02
 Cafe di Saronno,Cocktail Classics,1,Amaretto di Saronno,1
 Carre Reprise,Whiskies,1,Straight rye whiskey,1
 Carre Reprise,Whiskies,2,Cognac,1
 Carre Reprise,Whiskies,3,Sweet Vermouth,1
 Carre Reprise,Whiskies,4,Elderflower liqueur,0.5
-Carre Reprise,Whiskies,5,Angostura Bitters,1
-Carre Reprise,Whiskies,6,Peychaud's Bitters,1
+Carre Reprise,Whiskies,5,Angostura Bitters,0.02
+Carre Reprise,Whiskies,6,Peychaud's Bitters,0.02
 Gilroy Cocktail,Brandy,1,cherry-flavored brandy,0.75
 Gilroy Cocktail,Brandy,2,Gin,0.75
 Gilroy Cocktail,Brandy,3,Dry Vermouth,0.5
 Gilroy Cocktail,Brandy,4,Fresh lemon juice,0.5
-Gilroy Cocktail,Brandy,5,Orange Bitters,1
+Gilroy Cocktail,Brandy,5,Orange Bitters,0.02
 Redhead Martini,Vodka,1,"Strawberries, cut into halves",4
 Redhead Martini,Vodka,2,Fresh lemon juice,0.75
 Redhead Martini,Vodka,3,Simple Syrup,0.75
@@ -977,7 +977,7 @@ Canal Street Daisy,Whiskies,5,Orange wheel,1
 Canadian Cocktail,Whiskies,1,Canadian whisky,1.5
 Canadian Cocktail,Whiskies,2,Triple Sec,0.5
 Canadian Cocktail,Whiskies,3,Simple Syrup,0.5
-Canadian Cocktail,Whiskies,4,Angostura Bitters,1
+Canadian Cocktail,Whiskies,4,Angostura Bitters,0.02
 Purple Ruby,Vodka,1,Vodka,1.5
 Purple Ruby,Vodka,2,Pomegranate juice,1.5
 Purple Ruby,Vodka,3,Grapefruit Juice,0.5
@@ -1009,7 +1009,7 @@ Purple Passion,Vodka,4,Simple Syrup,0.5
 Cameron's Kick Cocktail,Whiskies,1,Blended Scotch Whiskey,0.75
 Cameron's Kick Cocktail,Whiskies,2,Irish Whiskey,0.75
 Cameron's Kick Cocktail,Whiskies,3,Fresh lemon juice,0.5
-Cameron's Kick Cocktail,Whiskies,4,Orange Bitters,2
+Cameron's Kick Cocktail,Whiskies,4,Orange Bitters,0.04
 Georgia Mint Julep,Brandy,1,Mint sprigs,2
 Georgia Mint Julep,Brandy,2,Simple Syrup,0.25
 Georgia Mint Julep,Brandy,3,Brandy,1.5
@@ -1045,17 +1045,17 @@ Bourbon Renewal,Whiskies,1,Bourbon whiskey,2
 Bourbon Renewal,Whiskies,2,Fresh lemon juice,1
 Bourbon Renewal,Whiskies,3,Creme de Cassis,0.5
 Bourbon Renewal,Whiskies,4,Simple Syrup,0.5
-Bourbon Renewal,Whiskies,5,Angostura Bitters,1
+Bourbon Renewal,Whiskies,5,Angostura Bitters,0.02
 Bourbon Highball,Whiskies,1,Bourbon whiskey,2
 Bourbon And Elder,Whiskies,1,Bourbon whiskey,2
 Bourbon And Elder,Whiskies,2,Elderflower liqueur,0.75
-Bourbon And Elder,Whiskies,3,Angostura Bitters,1
-Bourbon Crusta,Whiskies,1,"Lemon wedge, superfine sugar,  Long, wide spiral of orange zest",0.01
+Bourbon And Elder,Whiskies,3,Angostura Bitters,0.02
+Bourbon Crusta,Whiskies,1,"Lemon wedge, superfine sugar,  Long, wide spiral of orange zest",NA
 Bourbon Crusta,Whiskies,2,Bourbon whiskey,2
 Bourbon Crusta,Whiskies,3,Triple Sec,0.5
 Bourbon Crusta,Whiskies,4,Maraschino liqueur,1
 Bourbon Crusta,Whiskies,5,Fresh lemon juice,1
-Bourbon Crusta,Whiskies,6,Orange Bitters,2
+Bourbon Crusta,Whiskies,6,Orange Bitters,0.04
 Bourbon Cooler,Whiskies,1,Bourbon whiskey,2.5
 Bourbon Cooler,Whiskies,2,Fresh lemon juice,0.5
 Bourbon Cooler,Whiskies,3,Grapefruit Juice,0.5
@@ -1076,7 +1076,7 @@ Bobby Burns Cocktail,Whiskies,3,Benedictine,1
 Bloody Scotsman,Whiskies,1,"Smoky Scotch whisky, such as Laphroaig",24
 Bloody Scotsman,Whiskies,2,Tomato Juice,24
 Bloody Scotsman,Whiskies,3,V8 cocktail juice,24
-Bloody Scotsman,Whiskies,4,ketchup,1
+Bloody Scotsman,Whiskies,4,ketchup,8
 Bloody Scotsman,Whiskies,5,Fresh Lime Juice,3
 Bloody Scotsman,Whiskies,6,"Simple Syrup, 3/4 oz",3
 White Cargo Cocktail,Cocktail Classics,1,Vanilla Ice Cream,1
@@ -1095,11 +1095,11 @@ Blarney Stone Cocktail,Whiskies,1,Irish Whiskey,2
 Blarney Stone Cocktail,Whiskies,2,Anisette,0.5
 Blarney Stone Cocktail,Whiskies,3,Triple Sec,0.5
 Blarney Stone Cocktail,Whiskies,4,Maraschino liqueur,0.5
-Blarney Stone Cocktail,Whiskies,5,Angostura Bitters,1
+Blarney Stone Cocktail,Whiskies,5,Angostura Bitters,0.02
 Blarney Stone Cocktail,Whiskies,6,"Orange twist, green olive",1
 Pacman,Cocktail Classics,1,Lemon Juice,2
 Pacman,Cocktail Classics,2,Grenadine,1
-Pacman,Cocktail Classics,3,Bitters,1
+Pacman,Cocktail Classics,3,Bitters,0.02
 Lemonade (Golden),Cocktail Classics,1,Juice of a Lemon,1
 Lemonade (Golden),Cocktail Classics,2,Powdered Sugar,2
 Lemonade (Golden),Cocktail Classics,3,Egg Yolk,1
@@ -1156,7 +1156,7 @@ Combo,Cocktail Classics,1,Dry Vermouth,2.5
 Combo,Cocktail Classics,2,Brandy,1
 Combo,Cocktail Classics,3,Triple Sec,0.5
 Combo,Cocktail Classics,4,Powdered Sugar,0.5
-Combo,Cocktail Classics,5,Bitters,1
+Combo,Cocktail Classics,5,Bitters,0.02
 Basin Street,Whiskies,1,Bourbon whiskey,2
 Basin Street,Whiskies,2,Triple Sec,0.75
 Basin Street,Whiskies,3,Fresh lemon juice,0.75
@@ -1239,7 +1239,7 @@ Polynesian Cocktail,Vodka,3,cherry-flavored brandy,0.75
 Polynesian Cocktail,Vodka,4,Fresh Lime Juice,0.75
 Chateau Briand's Rum Cow,Cocktail Classics,1,Dark rum,1.25
 Chateau Briand's Rum Cow,Cocktail Classics,2,Sugar,1
-Chateau Briand's Rum Cow,Cocktail Classics,3,Bitters,2
+Chateau Briand's Rum Cow,Cocktail Classics,3,Bitters,0.04
 Chateau Briand's Rum Cow,Cocktail Classics,4,Milk,0.75
 Champagne Velvet,Cocktail Classics,1,Chilled Stout,5
 Champagne Velvet,Cocktail Classics,2,Chilled Champagne,5
@@ -1294,11 +1294,11 @@ Autumn Leaves,Whiskies,1,Straight rye whiskey,0.75
 Autumn Leaves,Whiskies,2,Apple Brandy,0.75
 Autumn Leaves,Whiskies,3,Sweet Vermouth,0.75
 Autumn Leaves,Whiskies,4,Strega,0.25
-Autumn Leaves,Whiskies,5,Angostura Bitters,2
+Autumn Leaves,Whiskies,5,Angostura Bitters,0.04
 Pickled Pink,Vodka,1,Vodka,2
 Pickled Pink,Vodka,2,Aquavit,1
 Pickled Pink,Vodka,3,Dill pickle brine,0.5
-Pickled Pink,Vodka,4,Angostura Bitters,2
+Pickled Pink,Vodka,4,Angostura Bitters,0.04
 Aquarius,Whiskies,1,Blended Scotch Whiskey,1.5
 Aquarius,Whiskies,2,cherry-flavored brandy,0.5
 Aquarius,Whiskies,3,Cranberry Juice,1
@@ -1309,7 +1309,7 @@ Soul Kiss Cocktail,Cocktail Classics,4,Bourbon,0.75
 Pickled Martini,Vodka,1,Vodka,2
 Pickled Martini,Vodka,2,Dry Vermouth,0.25
 Pickled Martini,Vodka,3,Sweet pickle brine,0.75
-Pickled Martini,Vodka,4,Sweet pickle slice,1
+Pickled Martini,Vodka,4,Sweet pickle slice,NA
 Sloe Gin Flip,Cocktail Classics,1,Whole Egg,1
 Sloe Gin Flip,Cocktail Classics,2,Powdered Sugar,1
 Sloe Gin Flip,Cocktail Classics,3,Sloe gin,1
@@ -1317,14 +1317,14 @@ Sloe Gin Flip,Cocktail Classics,4,Light Cream (if desired),2
 Angel's Share,Whiskies,1,Bourbon whiskey,1.5
 Angel's Share,Whiskies,2,Amaro,0.5
 Angel's Share,Whiskies,3,Creme de Cassis,0.25
-Angel's Share,Whiskies,4,Orange Bitters,1
+Angel's Share,Whiskies,4,Orange Bitters,0.02
 Silver Stallion Fizz,Cocktail Classics,1,Vanilla Ice Cream,1
 Silver Stallion Fizz,Cocktail Classics,2,Gin,2
 Silver King Cocktail,Cocktail Classics,1,Egg White,1
 Silver King Cocktail,Cocktail Classics,2,Juice of a Lemon,0.25
 Silver King Cocktail,Cocktail Classics,3,Gin,1.5
 Silver King Cocktail,Cocktail Classics,4,Powdered Sugar,0.5
-Silver King Cocktail,Cocktail Classics,5,Orange Bitters,2
+Silver King Cocktail,Cocktail Classics,5,Orange Bitters,0.04
 American Trilogy,Whiskies,1,"Brown sugar cube, such as Demerara",1
 American Trilogy,Whiskies,2,Straight rye whiskey,1
 American Trilogy,Whiskies,3,Applejack,1
@@ -1354,7 +1354,7 @@ Sherry Flip,Cocktail Classics,4,Light Cream (if desired),2
 Sherry-and-Egg Cocktail,Cocktail Classics,2,cream sherry,2
 Americana,Whiskies,1,Tennessee whiskey,1
 Americana,Whiskies,2,Simple Syrup,0.5
-Americana,Whiskies,3,Angostura Bitters,2
+Americana,Whiskies,3,Angostura Bitters,0.04
 Allegheny,Whiskies,1,Bourbon whiskey,1
 Allegheny,Whiskies,2,Dry Vermouth,1
 Allegheny,Whiskies,3,Blackberry-flavored brandy,0.5
@@ -1424,7 +1424,7 @@ Port Wine Flip,Cocktail Classics,1,Whole Egg,1
 Port Wine Flip,Cocktail Classics,2,Powdered Sugar,1
 Port Wine Flip,Cocktail Classics,3,Port,1.5
 Port Wine Flip,Cocktail Classics,4,Light Cream (if desired),2
-Port Wine Cobbler,Cocktail Classics,1,powdered sugar,1
+Port Wine Cobbler,Cocktail Classics,1,powdered sugar,0.16666666666666666
 Port Wine Cobbler,Cocktail Classics,2,carbonated water,2
 Port Wine Cobbler,Cocktail Classics,4,port,3
 Nijinksy Blini,Vodka,1,Vodka,1
@@ -1434,10 +1434,10 @@ Nijinksy Blini,Vodka,4,Fresh lemon juice,0.25
 Affinity Cocktail (whisky),Whiskies,1,Blended Scotch Whiskey,1
 Affinity Cocktail (whisky),Whiskies,2,Dry Vermouth,1
 Affinity Cocktail (whisky),Whiskies,3,Sweet Vermouth,1
-Affinity Cocktail (whisky),Whiskies,4,Orange Bitters,3
+Affinity Cocktail (whisky),Whiskies,4,Orange Bitters,0.06
 Plain Vermouth Cocktail,Cocktail Classics,1,Dry Vermouth,1
 Plain Vermouth Cocktail,Cocktail Classics,2,Sweet Vermouth,1
-Plain Vermouth Cocktail,Cocktail Classics,3,Orange Bitters,1
+Plain Vermouth Cocktail,Cocktail Classics,3,Orange Bitters,0.02
 Ping-Pong Cocktail,Cocktail Classics,1,Juice of a Lemon,0.25
 Ping-Pong Cocktail,Cocktail Classics,2,Egg White,1
 Ping-Pong Cocktail,Cocktail Classics,3,Sloe gin,2
@@ -1449,7 +1449,7 @@ Phoebe Snow,Cocktail Classics,3,Anis,0.5
 Affinity Cocktail,Whiskies,1,Straight rye whiskey,2
 Affinity Cocktail,Whiskies,2,Maraschino liqueur,0.75
 Affinity Cocktail,Whiskies,3,Fresh lemon juice,0.75
-Affinity Cocktail,Whiskies,4,Orange Bitters,2
+Affinity Cocktail,Whiskies,4,Orange Bitters,0.04
 Peggy Cocktail,Cocktail Classics,1,Dry Vermouth,0.75
 Peggy Cocktail,Cocktail Classics,2,Gin,1.5
 Peggy Cocktail,Cocktail Classics,3,Anis,0.25
@@ -1469,7 +1469,7 @@ Mocha Express,Vodka,2,Irish cream liqueur,0.75
 Mocha Express,Vodka,3,Coffee liqueur,0.75
 Mocha Express,Vodka,4,Cold brewed espresso coffee,0.75
 Palmer Cocktail,Cocktail Classics,1,Blended whiskey,2
-Palmer Cocktail,Cocktail Classics,2,Bitters,1
+Palmer Cocktail,Cocktail Classics,2,Bitters,0.02
 Palmer Cocktail,Cocktail Classics,3,Lemon Juice,0.5
 Mr. 404,Vodka,1,Vodka,1.5
 Mr. 404,Vodka,2,Elderflower liqueur,0.75
@@ -1488,12 +1488,12 @@ Morning Glory Fizz,Cocktail Classics,4,Anis,0.5
 Morning Glory Fizz,Cocktail Classics,5,Scotch,2
 Adderly Cocktail,Whiskies,1,Straight rye whiskey,2
 Adderly Cocktail,Whiskies,2,Maraschino liqueur,0.75
-Adderly Cocktail,Whiskies,3,Orange Bitters,2
+Adderly Cocktail,Whiskies,3,Orange Bitters,0.04
 Adderly Cocktail,Whiskies,4,Fresh lemon juice,0.75
 Fancy Brandy,Brandy,1,Brandy,2
 Fancy Brandy,Brandy,2,Triple Sec,0.25
 Fancy Brandy,Brandy,3,Simple Syrup,0.25
-Fancy Brandy,Brandy,4,Angostura Bitters,1
+Fancy Brandy,Brandy,4,Angostura Bitters,0.02
 Montreal Gin Sour,Cocktail Classics,1,Gin,1
 Montreal Gin Sour,Cocktail Classics,2,Lemon Juice,1
 Montreal Gin Sour,Cocktail Classics,3,Egg White,0.5
@@ -1525,7 +1525,7 @@ Academic Review,Whiskies,2,Applejack,0.5
 Academic Review,Whiskies,3,Amaro Nonino,0.5
 Academic Review,Whiskies,4,Rye Whiskey,0.5
 Academic Review,Whiskies,5,Demerara Syrup,0.25
-Academic Review,Whiskies,6,Mole bitters 1 oz,2
+Academic Review,Whiskies,6,Mole bitters 1 oz,0.04
 Milk Punch,Cocktail Classics,1,Powdered Sugar,1
 Milk Punch,Cocktail Classics,2,Blended whiskey,2
 Milk Punch,Cocktail Classics,3,Milk,1
@@ -1551,7 +1551,7 @@ Manila Fizz,Cocktail Classics,5,Juice of a Lime,0.5
 1626,Whiskies,1,Bourbon whiskey,2.5
 1626,Whiskies,2,Gingerbread liqueur,0.75
 1626,Whiskies,3,cherry-flavored brandy,0.5
-1626,Whiskies,4,Angostura Bitters,2
+1626,Whiskies,4,Angostura Bitters,0.04
 1626,Whiskies,5,Italian preserved cherry,1
 Maracuya Mosquito,Vodka,1,Fresh basil leaves,4
 Maracuya Mosquito,Vodka,2,Vodka,1.5
@@ -1565,12 +1565,12 @@ Madras,Vodka,3,Orange juice,1
 Absinthe Cocktail,Cocktail Classics,1,Absinthe Substitute,1.5
 Absinthe Cocktail,Cocktail Classics,2,Water,2
 Absinthe Cocktail,Cocktail Classics,3,Old Mr. Boston Anisette,1.5
-Absinthe Cocktail,Cocktail Classics,4,Orange Bitters,1
+Absinthe Cocktail,Cocktail Classics,4,Orange Bitters,0.02
 Lychee Lucy,Vodka,1,Vodka,1.5
 Lychee Lucy,Vodka,2,Lychee liqueur,0.5
 Lychee Lucy,Vodka,3,Fresh orange juice,0.5
 Lychee Lucy,Vodka,4,Pineapple Juice,0.5
-Lychee Lucy,Vodka,5,Angostura Bitters,2
+Lychee Lucy,Vodka,5,Angostura Bitters,0.04
 Vodka Martini,Cocktail Classics,1,Mr. Boston Vodka,1.5
 Vodka Martini,Cocktail Classics,2,Dry Vermouth,0.75
 The Loop,Vodka,1,Black cherry-flavored vodka,2
@@ -1589,7 +1589,7 @@ Fallen Leaves,Brandy,4,Brandy,1
 L'italienne,Vodka,1,Vodka,2
 L'italienne,Vodka,2,Lillet Blanc,0.25
 L'italienne,Vodka,3,Ramazzotti Amaro,0.25
-L'italienne,Vodka,4,Orange Bitters,1
+L'italienne,Vodka,4,Orange Bitters,0.02
 Rum Dubonnet,Cocktail Classics,1,Light Rum,1.5
 Rum Dubonnet,Cocktail Classics,2,Dubonnet,1.5
 Rum Dubonnet,Cocktail Classics,3,Lemon Juice,1
@@ -1603,7 +1603,7 @@ Limoncello Manzanilla Marmalade Sour,Vodka,2,Limoncello,0.75
 Limoncello Manzanilla Marmalade Sour,Vodka,3,Manzanilla sherry,0.75
 Limoncello Manzanilla Marmalade Sour,Vodka,4,Fresh lemon juice,0.75
 Limoncello Manzanilla Marmalade Sour,Vodka,5,Grapefruit marmalade,1
-Royal Purple Punch,Cocktail Classics,1,red wine,2
+Royal Purple Punch,Cocktail Classics,1,red wine,51.2
 Royal Gin Fizz,Cocktail Classics,1,Juice of a Lemon,0.5
 Royal Gin Fizz,Cocktail Classics,2,Powdered Sugar,1
 Royal Gin Fizz,Cocktail Classics,3,Gin,2
@@ -1616,7 +1616,7 @@ Royal Clover Club Cocktail,Cocktail Classics,1,Juice of a Lime,1
 Royal Clover Club Cocktail,Cocktail Classics,2,Grenadine,1
 Royal Clover Club Cocktail,Cocktail Classics,3,Egg Yolk,1
 Royal Clover Club Cocktail,Cocktail Classics,4,Gin,1.5
-Lights On The Plaza,Vodka,1,"Cucumber slices, chopped",2
+Lights On The Plaza,Vodka,1,"Cucumber slices, chopped",NA
 Lights On The Plaza,Vodka,2,Fresh lemon juice,0.5
 Lights On The Plaza,Vodka,3,Simple Syrup,0.5
 Lights On The Plaza,Vodka,4,Acai berry flavored vodka,1.5
@@ -1639,9 +1639,9 @@ Red Swizzle,Cocktail Classics,1,Juice of a Lime,1
 Red Swizzle,Cocktail Classics,2,Powdered Sugar,1
 Red Swizzle,Cocktail Classics,3,Carbonated Water,2
 Red Swizzle,Cocktail Classics,4,Gin,2
-Red Swizzle,Cocktail Classics,5,Bitters,2
+Red Swizzle,Cocktail Classics,5,Bitters,0.04
 Red Swizzle,Cocktail Classics,6,Grenadine,1
-Lemon Drop,Vodka,1,"Lemon wedge, superfine sugar",0.01
+Lemon Drop,Vodka,1,"Lemon wedge, superfine sugar",NA
 Lemon Drop,Vodka,2,lemon-flavored vodka,1.5
 Lemon Drop,Vodka,3,Fresh lemon juice,0.75
 Lemon Drop,Vodka,4,Simple Syrup,0.25
@@ -1664,26 +1664,26 @@ Ramos Fizz,Cocktail Classics,6,Triple Sec,0.5
 San Francisco,Cocktail Classics,1,Sloe gin,0.75
 San Francisco,Cocktail Classics,2,Sweet Vermouth,0.75
 San Francisco,Cocktail Classics,3,Dry Vermouth,0.75
-San Francisco,Cocktail Classics,4,Bitters,1
-San Francisco,Cocktail Classics,5,Orange Bitters,1
+San Francisco,Cocktail Classics,4,Bitters,0.02
+San Francisco,Cocktail Classics,5,Orange Bitters,0.02
 Sand-Martini Cocktail,Cocktail Classics,1,Green Chartreuse,1
 Sand-Martini Cocktail,Cocktail Classics,2,Sweet Vermouth,1.5
 Sand-Martini Cocktail,Cocktail Classics,3,Gin,1.5
 Sand-Martini Cocktail,Cocktail Classics,6,Sake,1
 Sake Martini (Sakini),Cocktail Classics,1,Sake,1
 Sake Martini (Sakini),Cocktail Classics,2,Gin,3
-Lemon Crush,Vodka,1,"Lemon wedge, superfine sugar",0.01
+Lemon Crush,Vodka,1,"Lemon wedge, superfine sugar",NA
 Lemon Crush,Vodka,2,Citrus-flavored vodka,1.5
 Lemon Crush,Vodka,3,Crema di limoncello,0.5
 Lemon Crush,Vodka,4,Triple Sec,0.5
 Lemon Crush,Vodka,5,Fresh lemon juice,1
-Rye Whiskey Cocktail,Cocktail Classics,1,Bitters,1
+Rye Whiskey Cocktail,Cocktail Classics,1,Bitters,0.02
 Rye Whiskey Cocktail,Cocktail Classics,2,Powdered Sugar,1
 Rye Whiskey Cocktail,Cocktail Classics,3,Rye Whiskey,2
 Leaves Of Grass,Vodka,1,Aquavit,1.5
 Leaves Of Grass,Vodka,2,Old Tom gin,0.5
 Leaves Of Grass,Vodka,3,Demerara Syrup,0.5
-Leaves Of Grass,Vodka,4,Orange Bitters,2
+Leaves Of Grass,Vodka,4,Orange Bitters,0.04
 Leaves Of Grass,Vodka,5,Absinthe,1
 Widow's Dream,Cocktail Classics,1,Benedictine,1.5
 Widow's Dream,Cocktail Classics,2,Whole Egg,1
@@ -1714,7 +1714,7 @@ Kretchma Cocktail,Vodka,1,Vodka,1
 Kretchma Cocktail,Vodka,2,White creme de cacao,1
 Kretchma Cocktail,Vodka,3,Fresh lemon juice,0.25
 Kretchma Cocktail,Vodka,4,Grenadine,0.25
-Whiskey Skin,Cocktail Classics,1,lump of sugar,1
+Whiskey Skin,Cocktail Classics,1,lump of sugar,NA
 Whiskey Skin,Cocktail Classics,3,blended whiskey,2
 Whiskey Milk Punch,Cocktail Classics,1,Powdered Sugar,1
 Whiskey Milk Punch,Cocktail Classics,2,Blended whiskey,2
@@ -1757,7 +1757,7 @@ Waterbury Cocktail,Cocktail Classics,4,Brandy,1.5
 Waterbury Cocktail,Cocktail Classics,5,Grenadine,0.5
 Washington Cocktail,Cocktail Classics,1,Dry Vermouth,1.5
 Washington Cocktail,Cocktail Classics,2,Brandy,0.75
-Washington Cocktail,Cocktail Classics,3,Bitters,2
+Washington Cocktail,Cocktail Classics,3,Bitters,0.04
 Washington Cocktail,Cocktail Classics,4,Sugar Syrup,0.5
 The Jamaican Ten Speed,Vodka,1,Vodka,1
 The Jamaican Ten Speed,Vodka,2,Melon liqueur,0.75
@@ -1769,7 +1769,7 @@ Twin Six Cocktail,Cocktail Classics,2,Sweet Vermouth,0.5
 Twin Six Cocktail,Cocktail Classics,3,Grenadine,0.25
 Twin Six Cocktail,Cocktail Classics,4,Orange Juice,1
 Twin Six Cocktail,Cocktail Classics,5,Egg White,1
-Jackie-O,Vodka,1,"Lime wedge, pink sanding sugar",0.01
+Jackie-O,Vodka,1,"Lime wedge, pink sanding sugar",NA
 Jackie-O,Vodka,2,each Citrus-flavored vodka and orange-flavored vodka,0.5
 Jackie-O,Vodka,3,Creme de Cassis,0.5
 Jackie-O,Vodka,4,Apricot nectar,1
@@ -1781,7 +1781,7 @@ Trois Rivieres,Cocktail Classics,3,Triple Sec,1.5
 Tovarich Cocktail,Cocktail Classics,1,Vodka,1.5
 Tovarich Cocktail,Cocktail Classics,2,Kummel,0.75
 Tovarich Cocktail,Cocktail Classics,3,Juice of a Lime,0.5
-Italian Screwdriver,Vodka,1,"Lime wedge, superfine sugar",0.01
+Italian Screwdriver,Vodka,1,"Lime wedge, superfine sugar",NA
 Italian Screwdriver,Vodka,2,Citrus-flavored vodka,1.5
 Italian Screwdriver,Vodka,3,Orange juice,3
 Italian Screwdriver,Vodka,4,Grapefruit Juice,2
@@ -1811,7 +1811,7 @@ Humpty Dumpty,Vodka,1,Vodka,2
 Humpty Dumpty,Vodka,2,Orange juice,1
 Humpty Dumpty,Vodka,3,Galliano,0.5
 Humpty Dumpty,Vodka,4,Whole Egg,1
-Humpty Dumpty,Vodka,5,Peychaud's Bitters,3
+Humpty Dumpty,Vodka,5,Peychaud's Bitters,0.06
 Tequila Cocktail,Cocktail Classics,1,Tequila,2
 Tequila Cocktail,Cocktail Classics,2,Juice of a Lemon,0.5
 Tequila Cocktail,Cocktail Classics,3,Grenadine,4
@@ -1832,7 +1832,7 @@ Limey,Cocktail Classics,2,Lime Liqueur,1
 Limey,Cocktail Classics,3,Triple Sec,0.5
 Limey,Cocktail Classics,4,Lime Juice,2
 Headless Horseman,Vodka,1,Vodka,2
-Headless Horseman,Vodka,2,Angostura Bitters,3
+Headless Horseman,Vodka,2,Angostura Bitters,0.06
 Love Cocktail,Cocktail Classics,1,Sloe gin,2
 Love Cocktail,Cocktail Classics,2,Egg White,1
 Love Cocktail,Cocktail Classics,3,Lemon Juice,0.5
@@ -1862,7 +1862,7 @@ Harrington,Vodka,3,Green Chartreuse,1
 El Profesor,Brandy,1,Pisco,1
 El Profesor,Brandy,2,Punt e Mes,0.5
 El Profesor,Brandy,3,Benedictine,0.5
-El Profesor,Brandy,4,Aromatic bitters,2
+El Profesor,Brandy,4,Aromatic bitters,0.04
 Leap Year Cocktail,Cocktail Classics,1,Gin,1.25
 Leap Year Cocktail,Cocktail Classics,2,Orange Flavored Gin,0.5
 Leap Year Cocktail,Cocktail Classics,3,Sweet Vermouth,0.5
@@ -1892,7 +1892,7 @@ Hot Shot Margarita,Cocktail Classics,3,Lemon or Lime Juice,1.5
 The Groupie,Vodka,1,Lemon wedges,3
 The Groupie,Vodka,2,Superfine sugar,0.5
 The Groupie,Vodka,3,Citrus-flavored vodka,2
-Hot Brandy Flip,Cocktail Classics,1,Whole Egg,1
+Hot Brandy Flip,Cocktail Classics,1,Whole Egg,NA
 Hot Brandy Flip,Cocktail Classics,2,Powdered Sugar,1
 Hot Brandy Flip,Cocktail Classics,3,Brandy,1.5
 Grape Nehi,Vodka,1,Vodka,1
@@ -1901,7 +1901,7 @@ Grape Nehi,Vodka,3,Fresh lemon juice,1
 Hole-in-One Cocktai,Cocktail Classics,1,Scotch,1.75
 Hole-in-One Cocktai,Cocktail Classics,2,Vermouth,0.75
 Hole-in-One Cocktai,Cocktail Classics,3,Lemon Juice,0.25
-Hole-in-One Cocktai,Cocktail Classics,4,Orange Bitters,1
+Hole-in-One Cocktai,Cocktail Classics,4,Orange Bitters,0.02
 Grapefruit Gimlet Royale,Vodka,1,Vodka,1.5
 Grapefruit Gimlet Royale,Vodka,2,Fresh grapefruit juice,1
 Grapefruit Gimlet Royale,Vodka,3,Fresh Lime Juice,0.25
@@ -1955,17 +1955,17 @@ Gloom Lifter,Cocktail Classics,3,Juice of a Lemon,0.5
 Gloom Lifter,Cocktail Classics,4,Raspberry Syrup,1
 Gloom Lifter,Cocktail Classics,5,Sugar,0.5
 Gloom Lifter,Cocktail Classics,6,Egg White,0.5
-Glogg,Cocktail Classics,1,"Wine (Port, Cream Sherry, Claret, Burgundy, or Madeira)",752
+Glogg,Cocktail Classics,1,"Wine (Port, Cream Sherry, Claret, Burgundy, or Madeira)",15.04
 Glogg,Cocktail Classics,2,Dried Orange Peel,2
 Glogg,Cocktail Classics,3,Cinnamon sticks,2
-Glogg,Cocktail Classics,5,cloves,25
+Glogg,Cocktail Classics,5,cloves,NA
 Georgia Peach,Vodka,1,Vodka,1.5
 Georgia Peach,Vodka,2,Peach schnapps,0.5
 Georgia Peach,Vodka,3,Grenadine,1
 Georgia Mule,Vodka,1,"Peach slice, skinned",1
 Georgia Mule,Vodka,2,Vodka,1.5
 Georgia Mule,Vodka,3,Fresh lemon juice,0.5
-Georgia Mule,Vodka,4,Peach bitters,2
+Georgia Mule,Vodka,4,Peach bitters,0.04
 Gentle Ben,Vodka,1,Vodka,1
 Gentle Ben,Vodka,2,Gin,1
 Gentle Ben,Vodka,3,Blanco tequila,1
@@ -1973,7 +1973,7 @@ East India Cocktail No. 1,Brandy,1,Brandy,1.5
 East India Cocktail No. 1,Brandy,2,Jamaica Rum,0.5
 East India Cocktail No. 1,Brandy,3,Triple Sec,0.5
 East India Cocktail No. 1,Brandy,4,Pineapple Juice,0.5
-East India Cocktail No. 1,Brandy,5,Angostura Bitters,1
+East India Cocktail No. 1,Brandy,5,Angostura Bitters,0.02
 General Harrison's Eggnog,Cocktail Classics,1,Whole Egg,1
 General Harrison's Eggnog,Cocktail Classics,2,Powdered Sugar,1
 Gables Collins,Vodka,1,Vodka,1.5
@@ -2027,7 +2027,7 @@ Dubonnet Fizz,Cocktail Classics,3,cherry-flavored brandy,1
 Dubonnet Fizz,Cocktail Classics,4,Dubonnet,2
 Dubonnet Cocktail,Cocktail Classics,1,Dubonnet,1.5
 Dubonnet Cocktail,Cocktail Classics,2,Gin,0.75
-Dubonnet Cocktail,Cocktail Classics,3,Orange Bitters (if desired),1
+Dubonnet Cocktail,Cocktail Classics,3,Orange Bitters (if desired),0.02
 Doctor Cook,Cocktail Classics,1,Gin,0.75
 Doctor Cook,Cocktail Classics,2,Lemon Juice,1
 Doctor Cook,Cocktail Classics,3,Maraschino,1
@@ -2043,11 +2043,11 @@ Devil's Cocktail,Cocktail Classics,2,Port,1.5
 Devil's Cocktail,Cocktail Classics,3,Dry Vermouth,1.5
 Derby Fizz,Cocktail Classics,1,Juice of a Lemon,0.5
 Derby Fizz,Cocktail Classics,2,Powdered Sugar,1
-Derby Fizz,Cocktail Classics,3,Whole Egg,1
+Derby Fizz,Cocktail Classics,3,Whole Egg,NA
 Derby Fizz,Cocktail Classics,4,Scotch,2
 Derby Fizz,Cocktail Classics,5,Triple Sec,1
 Cubeltini,Vodka,1,Cucumber slices,3
-Cubeltini,Vodka,2,Fresh mint leaves,5
+Cubeltini,Vodka,2,Fresh mint leaves,NA
 Cubeltini,Vodka,3,Simple Syrup,1.5
 Cubeltini,Vodka,4,Vodka,2
 Cubeltini,Vodka,5,Fresh Lime Juice,1
@@ -2085,7 +2085,7 @@ The Cinquecento,Vodka,1,Bison grass vodka (Zubrowka),1.5
 The Cinquecento,Vodka,2,Benedictine,0.5
 The Cinquecento,Vodka,3,Campari,0.5
 The Cinquecento,Vodka,4,Fresh grapefruit juice,0.75
-The Cinquecento,Vodka,5,Angostura Bitters,1
+The Cinquecento,Vodka,5,Angostura Bitters,0.02
 New Orleans Gin Fizz,Cocktail Classics,1,Juice of a Lemon,0.5
 New Orleans Gin Fizz,Cocktail Classics,2,Juice of a Lime,0.5
 New Orleans Gin Fizz,Cocktail Classics,3,Powdered Sugar,1
@@ -2100,7 +2100,7 @@ Zombie,Rum - Daiquiris,2,151-Proof Rum,1
 Zombie,Rum - Daiquiris,3,Light Rum,1
 Zombie,Rum - Daiquiris,4,"each Fresh Lime Juice, lemon juice, pineapple juie, and passion fruit syrup",1
 Zombie,Rum - Daiquiris,5,Demerara Syrup,2
-Zombie,Rum - Daiquiris,6,Tiki (such as Bittermen's 'Elemakule) or Angostura bitters (optional) Garnish: Fresh mint sprig,1
+Zombie,Rum - Daiquiris,6,Tiki (such as Bittermen's 'Elemakule) or Angostura bitters (optional) Garnish: Fresh mint sprig,0.02
 Kiss the Boys Goodbye,Cocktail Classics,1,Sloe gin,0.75
 Kiss the Boys Goodbye,Cocktail Classics,2,Brandy,0.75
 Kiss the Boys Goodbye,Cocktail Classics,3,Egg White,0.5
@@ -2132,7 +2132,7 @@ Eggnog Supreme,Cocktail Classics,1,Medium Eggs,1
 Eggnog Supreme,Cocktail Classics,2,Sugar,1
 Eggnog Supreme,Cocktail Classics,3,Whole milk,1.5
 Eggnog Supreme,Cocktail Classics,4,"Heavy Cream, Whipped",1
-Eggnog Supreme,Cocktail Classics,5,Cognac,751
+Eggnog Supreme,Cocktail Classics,5,Cognac,15.02
 Egg Sour,Cocktail Classics,1,Whole Egg,1
 Egg Sour,Cocktail Classics,2,Powdered Sugar,1
 Egg Sour,Cocktail Classics,3,Juice of a Lemon,0.5
@@ -2142,7 +2142,7 @@ White Lion Cocktail,Cocktail Classics,1,Light Rum,1.5
 White Lion Cocktail,Cocktail Classics,2,Fresh lemon juice,1
 White Lion Cocktail,Cocktail Classics,3,Simple Syrup,0.5
 White Lion Cocktail,Cocktail Classics,4,Grenadine,1
-White Lion Cocktail,Cocktail Classics,5,Angostura Bitters,2
+White Lion Cocktail,Cocktail Classics,5,Angostura Bitters,0.04
 White Lily Cocktail,Rum - Daiquiris,1,Light Rum,0.75
 White Lily Cocktail,Rum - Daiquiris,2,Triple Sec,0.75
 White Lily Cocktail,Rum - Daiquiris,3,Gin,0.75
@@ -2159,7 +2159,7 @@ Opera Cocktail,Cocktail Classics,3,Gin,1.5
 Virginia Dare,Rum - Daiquiris,1,Ripe pear,2
 Virginia Dare,Rum - Daiquiris,2,Dark rum,2
 Virginia Dare,Rum - Daiquiris,3,Benedictine,0.5
-Virginia Dare,Rum - Daiquiris,4,Angostura Bitters,2
+Virginia Dare,Rum - Daiquiris,4,Angostura Bitters,0.04
 Opening Cocktail,Cocktail Classics,1,Grenadine,0.5
 Opening Cocktail,Cocktail Classics,2,Sweet Vermouth,0.5
 Opening Cocktail,Cocktail Classics,3,Blended whiskey,1.5
@@ -2188,7 +2188,7 @@ Vesuvio,Cocktail Classics,5,Sweet Vermouth,0.5
 Urban Anxiety,Rum,1,Cachaca,1
 Urban Anxiety,Rum,2,Sweet Vermouth,1
 Urban Anxiety,Rum,3,Cynar,0.75
-Urban Anxiety,Rum,4,Angostura Bitters,2
+Urban Anxiety,Rum,4,Angostura Bitters,0.04
 Virgin,Cocktail Classics,1,Gin,1
 Virgin,Cocktail Classics,2,White creme de menthe,0.5
 Virgin,Cocktail Classics,3,Forbidden Fruit,1
@@ -2223,7 +2223,7 @@ Three Miller Cocktail,Rum - Daiquiris,1,Fresh cherry tomatoes,3
 Three Miller Cocktail,Rum - Daiquiris,2,Dark rum,2
 Three Miller Cocktail,Rum - Daiquiris,3,Fresh Lime Juice,1
 Three Miller Cocktail,Rum - Daiquiris,4,Simple Syrup,1
-Three Miller Cocktail,Rum - Daiquiris,5,Angostura Bitters,1
+Three Miller Cocktail,Rum - Daiquiris,5,Angostura Bitters,0.02
 Bird-of-Paradise Fizz,Cocktail Classics,1,Juice of a Lemon,0.5
 Bird-of-Paradise Fizz,Cocktail Classics,2,Powdered Sugar,1
 Bird-of-Paradise Fizz,Cocktail Classics,3,Egg White,1
@@ -2261,11 +2261,11 @@ Baltimore Bracer,Cocktail Classics,2,Brandy,1
 Baltimore Bracer,Cocktail Classics,3,Egg White,1
 Bachelor's Bait Cocktail,Cocktail Classics,1,Gin,1.5
 Bachelor's Bait Cocktail,Cocktail Classics,2,Egg White,1
-Bachelor's Bait Cocktail,Cocktail Classics,3,Orange Bitters,1
+Bachelor's Bait Cocktail,Cocktail Classics,3,Orange Bitters,0.02
 Bachelor's Bait Cocktail,Cocktail Classics,4,Grenadine,0.5
 Bushranger,Cocktail Classics,1,Light Rum,1.5
 Bushranger,Cocktail Classics,2,Dubonnet,1
-Bushranger,Cocktail Classics,3,Bitters,1
+Bushranger,Cocktail Classics,3,Bitters,0.02
 Sunset at Gowanus,Rum - Daiquiris,1,Dark rum,2
 Sunset at Gowanus,Rum - Daiquiris,2,Fresh Lime Juice,0.75
 Sunset at Gowanus,Rum - Daiquiris,3,Maple Syrup,0.5
@@ -2287,7 +2287,7 @@ Bronx Golden Cocktail,Cocktail Classics,1,Gin,1
 Bronx Golden Cocktail,Cocktail Classics,2,Sweet Vermouth,0.5
 Bronx Golden Cocktail,Cocktail Classics,3,Dry Vermouth,0.5
 Bronx Golden Cocktail,Cocktail Classics,4,Orange,0.25
-Stone Wall,Rum - Daiquiris,1,thin Peeled fresh ginger,3
+Stone Wall,Rum - Daiquiris,1,thin Peeled fresh ginger,NA
 Stone Wall,Rum - Daiquiris,2,Demerara Syrup,0.75
 Stone Wall,Rum - Daiquiris,3,Fresh apple cider,1.5
 Stone Wall,Rum - Daiquiris,4,Light Rum,1.5
@@ -2327,7 +2327,7 @@ Applejack Punch,Cocktail Classics,1,Applejack,1.75
 Applejack Punch,Cocktail Classics,2,Grenadine,4
 Applejack Punch,Cocktail Classics,3,Orange Juice,16
 Applejack Punch,Cocktail Classics,6,Whole Egg,1
-Brandy Flip,Cocktail Classics,1,Whole Egg,1
+Brandy Flip,Cocktail Classics,1,Whole Egg,NA
 Brandy Flip,Cocktail Classics,2,Powdered Sugar,1
 Brandy Flip,Cocktail Classics,3,Brandy,1.5
 Brandy Flip,Cocktail Classics,4,Light Cream (if desired),2
@@ -2344,7 +2344,7 @@ Boston Bullet,Cocktail Classics,2,Dry Vermouth,0.75
 Sargasso,Rum - Daiquiris,1,Aged rhum agricole,2
 Sargasso,Rum - Daiquiris,2,Dry Sherry,0.75
 Sargasso,Rum - Daiquiris,3,Aperol,0.5
-Sargasso,Rum - Daiquiris,4,Angostura Bitters,2
+Sargasso,Rum - Daiquiris,4,Angostura Bitters,0.04
 Santiago Cocktail,Rum - Daiquiris,1,Light Rum,1.5
 Santiago Cocktail,Rum - Daiquiris,2,Fresh Lime Juice,1
 Santiago Cocktail,Rum - Daiquiris,3,Simple Syrup,0.5
@@ -2354,7 +2354,7 @@ Black Velvet,Cocktail Classics,2,Chilled Champagne,5
 Saint Lucy Bracer,Rum - Daiquiris,1,Dark rum,2
 Saint Lucy Bracer,Rum - Daiquiris,2,Butterscotch schnapps,0.5
 Saint Lucy Bracer,Rum - Daiquiris,3,Sweet Vermouth,0.5
-Saint Lucy Bracer,Rum - Daiquiris,4,Angostura Bitters,2
+Saint Lucy Bracer,Rum - Daiquiris,4,Angostura Bitters,0.04
 Applecar,Cocktail Classics,1,Applejack,1
 Applecar,Cocktail Classics,2,Triple Sec,1
 Applecar,Cocktail Classics,3,Lemon Juice,1
@@ -2386,7 +2386,7 @@ Allies Cocktail,Cocktail Classics,3,Kummel,0.5
 Rum Swizzle,Rum - Daiquiris,1,Light or dark rum,2
 Rum Swizzle,Rum - Daiquiris,2,Fresh Lime Juice,1
 Rum Swizzle,Rum - Daiquiris,3,Simple Syrup,0.5
-Rum Swizzle,Rum - Daiquiris,4,Angostura Bitters,2
+Rum Swizzle,Rum - Daiquiris,4,Angostura Bitters,0.04
 A. J.,Cocktail Classics,1,Applejack,1.5
 A. J.,Cocktail Classics,2,Grapefruit Juice,1
 After Supper Cocktail,Cocktail Classics,1,Apricot-Flavored Brandy,1
@@ -2399,7 +2399,7 @@ Acapulco,Cocktail Classics,1,Light Rum,1.5
 Acapulco,Cocktail Classics,2,Lime Juice,1
 Acapulco,Cocktail Classics,3,Triple Sec,1.5
 Acapulco,Cocktail Classics,4,Sugar,1
-Acapulco,Cocktail Classics,5,Egg White,1
+Acapulco,Cocktail Classics,5,Egg White,NA
 Absinthe Drip Cocktail,Cocktail Classics,1,Anis,1.5
 Absinthe Drip Cocktail,Cocktail Classics,2,Sugar,1
 Ambrosia,Cocktail Classics,1,Applejack,1
@@ -2417,7 +2417,7 @@ Rum Relaxer,Rum - Daiquiris,3,Grenadine,0.5
 Rum Old-Fashioned,Rum - Daiquiris,1,Light Rum,1.5
 Rum Old-Fashioned,Rum - Daiquiris,2,151-Proof Rum,1
 Rum Old-Fashioned,Rum - Daiquiris,3,Simple Syrup,1
-Rum Old-Fashioned,Rum - Daiquiris,4,Angostura Bitters,1
+Rum Old-Fashioned,Rum - Daiquiris,4,Angostura Bitters,0.02
 Rum Martini,Rum - Daiquiris,1,Light Rum,2
 Rum Martini,Rum - Daiquiris,2,Dry Vermouth,1
 Rum Highball,Rum - Daiquiris,1,Light or dark rum,2
@@ -2456,7 +2456,7 @@ Rio Fix,Rum - Daiquiris,4,Fresh Lime Juice,0.75
 Rio Fix,Rum - Daiquiris,5,Pineapple Juice,0.5
 Ringo Starr,Rum - Daiquiris,1,Red grapes,3
 Ringo Starr,Rum - Daiquiris,2,Lemon,0.5
-Ringo Starr,Rum - Daiquiris,3,Fresh mint leaves,6
+Ringo Starr,Rum - Daiquiris,3,Fresh mint leaves,NA
 Ringo Starr,Rum - Daiquiris,4,Sugar cube,1
 Ringo Starr,Rum - Daiquiris,5,African rum,2
 Restless Native,Rum - Daiquiris,1,Coconut rum,2
@@ -2474,7 +2474,7 @@ Puerto Rican Rum Daisy,Rum - Daiquiris,1,Dark rum,1.5
 Puerto Rican Rum Daisy,Rum - Daiquiris,2,Orange curacao,0.25
 Puerto Rican Rum Daisy,Rum - Daiquiris,3,Fresh lemon juice,0.75
 Puerto Rican Rum Daisy,Rum - Daiquiris,4,each Orange juice and simple syrup,0.5
-Puerto Rican Rum Daisy,Rum - Daiquiris,5,Angostura Bitters,1
+Puerto Rican Rum Daisy,Rum - Daiquiris,5,Angostura Bitters,0.02
 Cuban Cocktail No. 2,Brandy,1,Brandy,1.5
 Cuban Cocktail No. 2,Brandy,2,Light Rum,0.5
 Cuban Cocktail No. 2,Brandy,3,Apricot-Flavored Brandy,0.5
@@ -2530,21 +2530,21 @@ The Crux,Brandy,4,Fresh lemon juice,0.75
 Paris When It Sizzles,Rum - Daiquiris,1,Elderflower liqueur,0.75
 Paris When It Sizzles,Rum - Daiquiris,2,Dark rum,2
 Paris When It Sizzles,Rum - Daiquiris,3,Fresh Lime Juice,0.5
-Paris When It Sizzles,Rum - Daiquiris,4,Angostura Bitters,1
+Paris When It Sizzles,Rum - Daiquiris,4,Angostura Bitters,0.02
 Palmetto Cocktail,Rum - Daiquiris,1,Light Rum,1.5
 Palmetto Cocktail,Rum - Daiquiris,2,Dry Vermouth,1.5
-Palmetto Cocktail,Rum - Daiquiris,3,Angostura Bitters,2
+Palmetto Cocktail,Rum - Daiquiris,3,Angostura Bitters,0.04
 Paddington,Rum - Daiquiris,1,Absinthe,1
 Paddington,Rum - Daiquiris,2,Light Rum,1.5
 Paddington,Rum - Daiquiris,3,Lillet Blanc,0.5
 Paddington,Rum - Daiquiris,4,Fresh grapefruit juice,0.5
 Paddington,Rum - Daiquiris,5,Fresh lemon juice,0.5
 Paddington,Rum - Daiquiris,6,"Orange marmalade, grapefruit twist",1
-The Old Cuban,Rum - Daiquiris,1,mint leaves,6
+The Old Cuban,Rum - Daiquiris,1,mint leaves,NA
 The Old Cuban,Rum - Daiquiris,2,Simple Syrup,1
 The Old Cuban,Rum - Daiquiris,3,Fresh Lime Juice,0.75
 The Old Cuban,Rum - Daiquiris,4,Dark rum,1.5
-The Old Cuban,Rum - Daiquiris,5,Angostura Bitters,2
+The Old Cuban,Rum - Daiquiris,5,Angostura Bitters,0.04
 The Old Cuban,Rum - Daiquiris,6,"Champagne, chopped fresh mint",2
 "Oh, Gosh!",Rum - Daiquiris,1,Light Rum,1.5
 "Oh, Gosh!",Rum - Daiquiris,2,Triple Sec,1.5
@@ -2558,7 +2558,7 @@ Nevada Cocktail,Rum - Daiquiris,1,Light Rum,1.5
 Nevada Cocktail,Rum - Daiquiris,2,Grapefruit Juice,1
 Nevada Cocktail,Rum - Daiquiris,3,Fresh Lime Juice,0.75
 Nevada Cocktail,Rum - Daiquiris,4,Simple Syrup,0.75
-Nevada Cocktail,Rum - Daiquiris,5,Angostura Bitters,1
+Nevada Cocktail,Rum - Daiquiris,5,Angostura Bitters,0.02
 Moonquake Shake,Rum - Daiquiris,1,Dark rum,1.5
 Moonquake Shake,Rum - Daiquiris,2,Coffee-flavored brandy,1
 Moonquake Shake,Rum - Daiquiris,3,Fresh lemon juice,0.25
@@ -2571,7 +2571,7 @@ Margarita,Cocktail Classics,1,Blanco tequila,1.5
 Margarita,Cocktail Classics,2,Cointreau or triple sec,0.75
 Margarita,Cocktail Classics,3,Fresh Lime Juice,0.75
 Mojito,Rum - Daiquiris,1,Lime wedges,3
-Mojito,Rum - Daiquiris,2,Fresh mint leaves,7
+Mojito,Rum - Daiquiris,2,Fresh mint leaves,NA
 Mojito,Rum - Daiquiris,3,Simple Syrup,0.75
 Mojito,Rum - Daiquiris,4,Light Rum,2
 Champagne Flamingo,Vodka,1,Vodka,0.75
@@ -2602,7 +2602,7 @@ Cape Codder,Tequila,6,Egg White,1
 Baltimore Bracer Cocktail,Cocktail Classics,1,Old Mr. Boston Anisette,1
 Baltimore Bracer Cocktail,Cocktail Classics,2,Old Mr. Boston Five Star Brandy,1
 Baltimore Bracer Cocktail,Cocktail Classics,3,Egg White,1
-Caesar,Vodka,1,"Lemon wedge, celery salt",0.01
+Caesar,Vodka,1,"Lemon wedge, celery salt",NA
 Caesar,Vodka,2,Vodka,1.5
 Caesar,Vodka,3,Tomato-clam juice,4
 Caesar,Vodka,4,Prepared horseradish,0.5
@@ -2626,7 +2626,7 @@ Thanksgiving Special Cocktail,Cocktail Classics,3,Dry Vermouth,0.75
 Thanksgiving Special Cocktail,Cocktail Classics,4,Lemon Juice,0.25
 Tequini Cocktail,Cocktail Classics,1,Old Mr. Boston Tequila,1.5
 Tequini Cocktail,Cocktail Classics,2,Dry Vermouth,0.5
-Tequini Cocktail,Cocktail Classics,3,Bitters,1
+Tequini Cocktail,Cocktail Classics,3,Bitters,0.02
 Bordeaux Cocktail,Vodka,1,Citrus-flavored vodka,1.5
 Bordeaux Cocktail,Vodka,2,Lillet Blanc,0.5
 Bolshoi Punch,Vodka,1,Vodka,1
@@ -2644,7 +2644,7 @@ Bloody Mary,Vodka,1,Vodka,1.5
 Bloody Mary,Vodka,2,Tomato Juice,3
 Bloody Mary,Vodka,3,Fresh Lime Juice,0.25
 Bloody Mary,Vodka,4,Worcestershire Sauce,4
-Bloody Mary,Vodka,5,hot red pepper sauce,2
+Bloody Mary,Vodka,5,hot red pepper sauce,0.04
 Spritzer Highball,Cocktail Classics,1,chilled Rhine wine or Sauterne,3
 Bloody Bull,Vodka,1,Vodka,1
 Bloody Bull,Vodka,2,Tomato Juice,2
@@ -2682,7 +2682,7 @@ The Big Crush,Vodka,1,Raspberry-flavored vodka,1
 The Big Crush,Vodka,2,Triple Sec,0.5
 The Big Crush,Vodka,3,Raspberry-flavored liqueur,0.5
 The Big Crush,Vodka,4,Fresh Lime Juice,0.5
-Bianca,Vodka,1,"Lime wedge, superfine sugar",0.01
+Bianca,Vodka,1,"Lime wedge, superfine sugar",NA
 Bianca,Vodka,2,Citrus-flavored vodka,1.5
 Bianca,Vodka,3,Pomegranate juice,2
 Bianca,Vodka,4,Fresh Lime Juice,0.25
@@ -2699,7 +2699,7 @@ Basil 8,Vodka,1,Fresh basil leaves,3
 Basil 8,Vodka,2,White grapes,5
 Basil 8,Vodka,3,Vodka,1.5
 Basil 8,Vodka,4,Fresh Lime Juice,0.75
-Basil 8,Vodka,5,"each Simple Syrup, angostura bitters",1
+Basil 8,Vodka,5,"each Simple Syrup, angostura bitters",0.02
 Shamrock Cocktail,Cocktail Classics,1,Irish Whiskey,1.5
 Shamrock Cocktail,Cocktail Classics,2,Dry Vermouth,0.5
 Shamrock Cocktail,Cocktail Classics,3,Old Mr. Boston Green Creme de Menthe,1
@@ -2723,7 +2723,7 @@ Yellow Rose Of Texas,Tequila,5,Rose water,3
 St. Patrick's Day Cocktail,Cocktail Classics,1,Old Mr. Boston Green Creme de Menthe,0.75
 St. Patrick's Day Cocktail,Cocktail Classics,2,Green Chartreuse,0.75
 St. Patrick's Day Cocktail,Cocktail Classics,3,Irish Whiskey,0.75
-St. Patrick's Day Cocktail,Cocktail Classics,4,Bitters,1
+St. Patrick's Day Cocktail,Cocktail Classics,4,Bitters,0.02
 Purple Twister,Cocktail Classics,1,Old Mr. Boston Grape Vodka,2
 Waiting On Summer,Tequila,1,Cucumber,3
 Waiting On Summer,Tequila,2,Fresh sage leaves,3
@@ -2736,7 +2736,7 @@ Prince's Smile Cocktail,Cocktail Classics,1,Old Mr. Boston Apricot Flavored Bran
 Prince's Smile Cocktail,Cocktail Classics,2,Apple Brandy,0.5
 Prince's Smile Cocktail,Cocktail Classics,3,Old Mr. Boston Dry Gin,1
 Prince's Smile Cocktail,Cocktail Classics,4,Lemon Juice,0.25
-Viva Villa,Tequila,1,"Lime wedge, coarse salt",0.01
+Viva Villa,Tequila,1,"Lime wedge, coarse salt",NA
 Viva Villa,Tequila,2,Blanco tequila,1.5
 Viva Villa,Tequila,3,Fresh Lime Juice,1
 Viva Villa,Tequila,4,Simple Syrup,0.5
@@ -2756,13 +2756,13 @@ Vagabundo,Tequila,1,Reposado blanco tequila,2
 Vagabundo,Tequila,2,Pineapple Juice,1.5
 Vagabundo,Tequila,3,Fresh celery juice,1.5
 Vagabundo,Tequila,4,Fresh Lime Juice,0.5
-The 21st Century,Tequila,1,Absinthe,0.01
+The 21st Century,Tequila,1,Absinthe,0.001
 The 21st Century,Tequila,2,Absinthe,1
 The 21st Century,Tequila,3,Blanco tequila,1.5
 The 21st Century,Tequila,4,Fresh Lime Juice,0.75
 The 21st Century,Tequila,5,White creme de cacao,0.75
-Pollyanna Cocktail,Cocktail Classics,1,orange peel,3
-Pollyanna Cocktail,Cocktail Classics,2,pineapple,3
+Pollyanna Cocktail,Cocktail Classics,1,orange peel,NA
+Pollyanna Cocktail,Cocktail Classics,2,pineapple,NA
 Pollyanna Cocktail,Cocktail Classics,3,Old Mr. Boston Dry Gin,2
 Pollyanna Cocktail,Cocktail Classics,4,sweet vermouth,0.5
 Toreador,Tequila,1,Blanco tequila,1.5
@@ -2789,7 +2789,7 @@ Tequonic,Tequila,1,Blanco tequila,2
 Tequonic,Tequila,2,Fresh lemon or lime juice,0.25
 Tequini,Tequila,1,Blanco tequila,1.5
 Tequini,Tequila,2,Dry Vermouth,0.5
-Tequini,Tequila,3,Angostura bitters,1
+Tequini,Tequila,3,Angostura bitters,0.02
 Passion Daiquiri Cocktail,Cocktail Classics,1,Old Mr. Boston Rum,1.5
 Passion Daiquiri Cocktail,Cocktail Classics,2,Juice of a Lime,1
 Passion Daiquiri Cocktail,Cocktail Classics,3,Powdered Sugar,1
@@ -2819,11 +2819,11 @@ Tequila Pink,Tequila,2,Dry Vermouth,1
 Tequila Pink,Tequila,3,Grenadine,0.25
 Tequila Old-Fashioned,Tequila,1,Blanco tequila,1.5
 Tequila Old-Fashioned,Tequila,2,Simple Syrup,1
-Tequila Old-Fashioned,Tequila,3,Angostura Bitters,1
+Tequila Old-Fashioned,Tequila,3,Angostura Bitters,0.02
 Tequila Old-Fashioned,Tequila,4,Soda water,1
 Rob Roy Cocktail,Cocktail Classics,1,Sweet Vermouth,0.75
 Rob Roy Cocktail,Cocktail Classics,2,Desmond & Duff Scotch Whisky,1.5
-Tequila Mockingbird,Tequila,1,"Lime wedge, coarse salt",0.01
+Tequila Mockingbird,Tequila,1,"Lime wedge, coarse salt",NA
 Tequila Mockingbird,Tequila,2,Minced ginger,0.25
 Tequila Mockingbird,Tequila,3,Blanco tequila,1.75
 Tequila Mockingbird,Tequila,4,Agave nectar,1.5
@@ -2833,7 +2833,7 @@ Tequila Matador,Tequila,2,Pineapple Juice,2
 Tequila Matador,Tequila,3,Fresh Lime Juice,0.5
 Tequila Manhattan,Tequila,1,Blanco tequila,2
 Tequila Manhattan,Tequila,2,Sweet Vermouth,1
-Tequila Manhattan,Tequila,3,Angostura Bitters,1
+Tequila Manhattan,Tequila,3,Angostura Bitters,0.02
 T.N.T. Cocktail,Cocktail Classics,1,Old Thompson Blended Whiskey,1.5
 T.N.T. Cocktail,Cocktail Classics,2,Absinthe Substitute,1.5
 Thunderclap Cocktail,Cocktail Classics,1,Old Mr. Boston Dry Gin,0.75
@@ -2855,7 +2855,7 @@ Tequila Canyon,Tequila,2,Triple Sec,0.25
 Tequila Canyon,Tequila,3,Cranberry Juice,1
 Tequila Canyon,Tequila,4,Pineapple Juice,1
 Tequila Canyon,Tequila,5,Orange juice,1
-Chicago Cocktail,Brandy,1,"Lemon wedge, superfine sugar",0.01
+Chicago Cocktail,Brandy,1,"Lemon wedge, superfine sugar",NA
 Chicago Cocktail,Brandy,2,Brandy,1
 Chicago Cocktail,Brandy,3,Fresh lemon juice,0.5
 Chicago Cocktail,Brandy,4,Orange curacao,0.25
@@ -2863,7 +2863,7 @@ Chicago Cocktail,Brandy,5,Maraschino liqueur,0.25
 Sunday Confession,Tequila,1,Blanco tequila,1
 Sunday Confession,Tequila,2,Limoncello,1
 Sunday Confession,Tequila,3,Fresh lemon juice,0.5
-Strawberry Margarita,Tequila,1,"Lime wedge, superfine sugar or coarse salt (optional)",0.01
+Strawberry Margarita,Tequila,1,"Lime wedge, superfine sugar or coarse salt (optional)",NA
 Strawberry Margarita,Tequila,2,"Fresh strawberries, cut in half",3
 Strawberry Margarita,Tequila,3,Strawberry schnapps,0.75
 Strawberry Margarita,Tequila,4,Blanco tequila,1.5
@@ -2876,9 +2876,9 @@ Western Rose Cocktail,Cocktail Classics,4,Lemon Juice,0.25
 Widow's Kiss Cocktail,Cocktail Classics,1,Old Mr. Boston Five Star Brandy,1
 Widow's Kiss Cocktail,Cocktail Classics,2,Yellow Chartreuse,0.5
 Widow's Kiss Cocktail,Cocktail Classics,3,Benedictine,0.5
-Widow's Kiss Cocktail,Cocktail Classics,4,Peychaud Bitters,1
+Widow's Kiss Cocktail,Cocktail Classics,4,Peychaud Bitters,0.02
 Spice Of Life,Tequila,1,Cucumber,3
-Spice Of Life,Tequila,2,Fresh mint leaves,12
+Spice Of Life,Tequila,2,Fresh mint leaves,NA
 Spice Of Life,Tequila,3,Simple Syrup,0.75
 Spice Of Life,Tequila,4,Jalapeno-Infused Tequila,2
 Spice Of Life,Tequila,5,Fresh Lime Juice,0.75
@@ -2886,7 +2886,7 @@ Widow's Dream Cocktail,Cocktail Classics,1,Benedictine,1.5
 Widow's Dream Cocktail,Cocktail Classics,2,Whole Egg,1
 Vodka Gypsy Cocktail,Cocktail Classics,1,Old Mr. Boston Vodka,1.5
 Vodka Gypsy Cocktail,Cocktail Classics,2,Benedictine,0.75
-Vodka Gypsy Cocktail,Cocktail Classics,3,Angostura Bitters,1
+Vodka Gypsy Cocktail,Cocktail Classics,3,Angostura Bitters,0.02
 South Of The Border,Tequila,1,Blanco tequila,1
 South Of The Border,Tequila,2,Coffee-flavored brandy,0.75
 South Of The Border,Tequila,3,Fresh Lime Juice,0.5
@@ -2949,13 +2949,13 @@ The Sfozando,Tequila,1,Mezcal,1
 The Sfozando,Tequila,2,Rye Whiskey,0.75
 The Sfozando,Tequila,3,Dry Vermouth,0.5
 The Sfozando,Tequila,4,Benedictine,0.5
-The Sfozando,Tequila,5,Chocolate bitters,1
+The Sfozando,Tequila,5,Chocolate bitters,0.02
 Napoleon Cocktail,Cocktail Classics,1,Old Mr. Boston Dry Gin,2
 Napoleon Cocktail,Cocktail Classics,2,Curacao,0.5
 Napoleon Cocktail,Cocktail Classics,3,Dubonnet,0.5
 Moulin Rouge Cocktail,Cocktail Classics,1,Old Mr. Boston Sloe Gin,1.5
 Moulin Rouge Cocktail,Cocktail Classics,2,Sweet Vermouth,0.75
-Moulin Rouge Cocktail,Cocktail Classics,3,Bitters,1
+Moulin Rouge Cocktail,Cocktail Classics,3,Bitters,0.02
 Sea Of Cortez,Tequila,1,Blanco tequila,1.5
 Sea Of Cortez,Tequila,2,Fresh Lime Juice,1
 Sea Of Cortez,Tequila,3,Creme de Cassis,0.75
@@ -2973,7 +2973,7 @@ Rosita,Tequila,1,Blanco tequila,1.5
 Rosita,Tequila,2,Sweet Vermouth,0.5
 Rosita,Tequila,3,Dry Vermouth,0.5
 Rosita,Tequila,4,Campari,0.5
-Rosita,Tequila,5,Angostura Bitters,1
+Rosita,Tequila,5,Angostura Bitters,0.02
 Mariposa Cocktail,Cocktail Classics,1,Old Mr. Boston Rum,1
 Mariposa Cocktail,Cocktail Classics,2,Old Mr. Boston Five Star Brandy,0.5
 Mariposa Cocktail,Cocktail Classics,3,Lemon Juice,1
@@ -2997,7 +2997,7 @@ Quetzalcoatl,Tequila,3,Creme de peche,0.5
 Quetzalcoatl,Tequila,4,Guava puree,0.5
 Quetzalcoatl,Tequila,5,Grapefruit Juice,0.5
 Zero Mint,Cocktail Classics,1,Mr. Boston Creme de menthe,2
-Purple Pancho,Tequila,1,"Lime wedge, superfine sugar",0.01
+Purple Pancho,Tequila,1,"Lime wedge, superfine sugar",NA
 Purple Pancho,Tequila,2,Blanco tequila,1
 Purple Pancho,Tequila,3,Blue curacao,0.5
 Purple Pancho,Tequila,4,Sloe gin,0.5
@@ -3008,14 +3008,14 @@ Midnight Express,Rum - Daiquiris,2,Triple Sec,0.5
 Midnight Express,Rum - Daiquiris,3,Fresh Lime Juice,0.75
 Midnight Express,Rum - Daiquiris,4,Fresh lemon juice,0.25
 Midnight Express,Rum - Daiquiris,5,Simple Syrup,0.25
-London Special Cocktail,Cocktail Classics,3,bitters,2
+London Special Cocktail,Cocktail Classics,3,bitters,0.04
 Mary Pickford Cocktail,Rum - Daiquiris,1,Light Rum,1.5
 Mary Pickford Cocktail,Rum - Daiquiris,2,Pineapple Juice,0.75
 Mary Pickford Cocktail,Rum - Daiquiris,3,Maraschino liqueur,0.25
 Mary Pickford Cocktail,Rum - Daiquiris,4,Grenadine,0.25
 Charles Cocktail,Brandy,1,Brandy,1.5
 Charles Cocktail,Brandy,2,Sweet Vermouth,1.5
-Charles Cocktail,Brandy,3,Angostura Bitters,1
+Charles Cocktail,Brandy,3,Angostura Bitters,0.02
 Martinique Rose,Rum - Daiquiris,1,Aged rhum agricole,2
 Martinique Rose,Rum - Daiquiris,2,Amaretto,0.5
 Martinique Rose,Rum - Daiquiris,3,Fresh Lime Juice,0.75
@@ -3050,7 +3050,7 @@ Lumination,Rum - Daiquiris,1,Fresh ginger,2
 Lumination,Rum - Daiquiris,2,Simple Syrup,1
 Lumination,Rum - Daiquiris,3,Dark rum,2
 Lumination,Rum - Daiquiris,4,VS cognac,1
-Lumination,Rum - Daiquiris,5,"each Fresh lemon juice, Angostura bitters",1
+Lumination,Rum - Daiquiris,5,"each Fresh lemon juice, Angostura bitters",0.02
 Jamaica Glow Cocktail,Cocktail Classics,1,Old Mr. Boston Dry Gin,1
 Jamaica Glow Cocktail,Cocktail Classics,2,Claret,1
 Jamaica Glow Cocktail,Cocktail Classics,3,Orange Juice,1
@@ -3059,11 +3059,11 @@ Lounge Lizard,Rum - Daiquiris,1,Dark rum,1
 Lounge Lizard,Rum - Daiquiris,2,Amaretto,0.5
 Jack-in-the-Box Cocktail,Cocktail Classics,1,Apple Brandy,1
 Jack-in-the-Box Cocktail,Cocktail Classics,2,Pineapple Juice,1
-Jack-in-the-Box Cocktail,Cocktail Classics,3,Bitters,1
+Jack-in-the-Box Cocktail,Cocktail Classics,3,Bitters,0.02
 Irish Whisky Cocktail,Cocktail Classics,1,Old Mr. Boston Triple Sec,0.5
 Irish Whisky Cocktail,Cocktail Classics,2,Absinthe Substitute,0.5
 Irish Whisky Cocktail,Cocktail Classics,3,Maraschino,0.25
-Irish Whisky Cocktail,Cocktail Classics,4,Bitters,1
+Irish Whisky Cocktail,Cocktail Classics,4,Bitters,0.02
 Irish Whisky Cocktail,Cocktail Classics,5,Irish Whiskey,2
 Look Out Below,Rum - Daiquiris,1,151-Proof Rum,1.5
 Look Out Below,Rum - Daiquiris,2,Fresh Lime Juice,0.5
@@ -3078,7 +3078,7 @@ Champs Elysees Cocktail,Brandy,1,Brandy,1
 Champs Elysees Cocktail,Brandy,2,Yellow Chartreuse,0.5
 Champs Elysees Cocktail,Brandy,3,Fresh lemon juice,0.5
 Champs Elysees Cocktail,Brandy,4,Simple Syrup,1
-Champs Elysees Cocktail,Brandy,5,Angostura Bitters,1
+Champs Elysees Cocktail,Brandy,5,Angostura Bitters,0.02
 Hop Toad Cocktail,Cocktail Classics,1,Juice of a Lime,0.5
 Hop Toad Cocktail,Cocktail Classics,2,Old Mr. Boston Apricot Flavored Brandy,0.75
 Hop Toad Cocktail,Cocktail Classics,3,Old Mr. Boston Rum,0.75
@@ -3086,7 +3086,7 @@ Level headed Cocktail,Rum - Daiquiris,1,Aged rhum agricole,1.5
 Level headed Cocktail,Rum - Daiquiris,2,Cold brewed coffee,1
 Level headed Cocktail,Rum - Daiquiris,3,Allspice liqueur (pimento dram),0.5
 Level headed Cocktail,Rum - Daiquiris,4,Simple Syrup,0.25
-Level headed Cocktail,Rum - Daiquiris,5,Angostura Bitters,2
+Level headed Cocktail,Rum - Daiquiris,5,Angostura Bitters,0.04
 La Vita Dulce,Rum - Daiquiris,1,Spiced rum,1.5
 La Vita Dulce,Rum - Daiquiris,2,Mezcal,0.75
 La Vita Dulce,Rum - Daiquiris,3,Fresh Lime Juice,0.75
@@ -3094,7 +3094,7 @@ La Vita Dulce,Rum - Daiquiris,4,Simple Syrup,0.75
 Hole-in-One Cocktail,Cocktail Classics,1,Desmond & Duff Scotch Whisky,1.75
 Hole-in-One Cocktail,Cocktail Classics,2,Dry Vermouth,0.75
 Hole-in-One Cocktail,Cocktail Classics,3,Lemon Juice,0.25
-Hole-in-One Cocktail,Cocktail Classics,4,Orange Bitters,1
+Hole-in-One Cocktail,Cocktail Classics,4,Orange Bitters,0.02
 Ko Adang,Rum - Daiquiris,1,Dark rum,2
 Ko Adang,Rum - Daiquiris,2,Coconut rum,1
 Ko Adang,Rum - Daiquiris,3,Ginger liqueur,0.5
@@ -3116,12 +3116,12 @@ Jamaican Ginger,Rum - Daiquiris,1,Light Rum,1.5
 Jamaican Ginger,Rum - Daiquiris,2,Dark rum,1
 Jamaican Ginger,Rum - Daiquiris,3,Falernum,0.5
 Jamaican Ginger,Rum - Daiquiris,4,Fresh Lime Juice,0.5
-Jamaican Ginger,Rum - Daiquiris,5,Angostura Bitters,4
+Jamaican Ginger,Rum - Daiquiris,5,Angostura Bitters,0.08
 Green Dragon Cocktail,Cocktail Classics,1,Juice of a Lemon,0.5
 Green Dragon Cocktail,Cocktail Classics,2,Old Mr. Boston Kummel,0.5
 Green Dragon Cocktail,Cocktail Classics,3,Old Mr. Boston Green Creme de Menthe,0.5
 Green Dragon Cocktail,Cocktail Classics,4,Old Mr. Boston Dry Gin,1.5
-Green Dragon Cocktail,Cocktail Classics,5,Orange Bitters,4
+Green Dragon Cocktail,Cocktail Classics,5,Orange Bitters,0.08
 Grasshopper Cocktail,Cocktail Classics,1,Old Mr. Boston Green Creme de Menthe,0.75
 Grasshopper Cocktail,Cocktail Classics,2,Old Mr. Boston White Creme de Cacao,0.75
 Grasshopper Cocktail,Cocktail Classics,3,Light Sweet Cream,0.75
@@ -3144,7 +3144,7 @@ Jack Sparrow Flip,Rum - Daiquiris,1,Dark rum,2
 Jack Sparrow Flip,Rum - Daiquiris,2,Madeira,0.75
 Jack Sparrow Flip,Rum - Daiquiris,3,Simple Syrup,0.75
 Jack Sparrow Flip,Rum - Daiquiris,4,Egg,1
-Jack Sparrow Flip,Rum - Daiquiris,5,Angostura Bitters,2
+Jack Sparrow Flip,Rum - Daiquiris,5,Angostura Bitters,0.04
 Irresistible,Rum - Daiquiris,1,Light Rum,1.5
 Irresistible,Rum - Daiquiris,2,Sweet Vermouth,0.5
 Irresistible,Rum - Daiquiris,3,Benedictine,0.25
@@ -3155,7 +3155,7 @@ Hush and Wonder,Rum - Daiquiris,1,Creme de violette,1
 Hush and Wonder,Rum - Daiquiris,2,Light Rum,2
 Hush and Wonder,Rum - Daiquiris,3,Fresh Lime Juice,0.75
 Hush and Wonder,Rum - Daiquiris,4,Simple Syrup,0.75
-Hush and Wonder,Rum - Daiquiris,5,Grapefruit bitters,3
+Hush and Wonder,Rum - Daiquiris,5,Grapefruit bitters,0.06
 Hurricane Leah,Rum - Daiquiris,1,"each Light Rum, Gin, Vodka, Blanco tequila, Blue curacao",0.25
 Hurricane Leah,Rum - Daiquiris,2,cherry-flavored brandy,1
 Hurricane Leah,Rum - Daiquiris,3,Simple Syrup,1.5
@@ -3175,16 +3175,16 @@ Hop Toad,Rum - Daiquiris,3,Fresh Lime Juice,0.5
 The Holy Roller,Rum - Daiquiris,1,Cachaca,1.5
 The Holy Roller,Rum - Daiquiris,2,Fresh Lime Juice,0.75
 The Holy Roller,Rum - Daiquiris,3,Honey Syrup,0.5
-The Holy Roller,Rum - Daiquiris,5,Angostura Bitters,2
+The Holy Roller,Rum - Daiquiris,5,Angostura Bitters,0.04
 The Holy Roller,Rum - Daiquiris,6,"Champagne or sparkling wine, mint sprig",0.5
 Hemingway's Nog,Rum - Daiquiris,1,Dark rum,1.5
 Hemingway's Nog,Rum - Daiquiris,2,Vanilla liqueur,0.75
 Hemingway's Nog,Rum - Daiquiris,3,Simple Syrup,0.25
 Hemingway's Nog,Rum - Daiquiris,4,Creme fraiche,1
-Hemingway's Nog,Rum - Daiquiris,5,"tiki bitters, such as Bittermen's Elemakule",3
+Hemingway's Nog,Rum - Daiquiris,5,"tiki bitters, such as Bittermen's Elemakule",0.06
 Flying Scotchman Cocktail,Cocktail Classics,1,Sweet Vermouth,1
 Flying Scotchman Cocktail,Cocktail Classics,2,Desmond & Duff Scotch Whisky,1
-Flying Scotchman Cocktail,Cocktail Classics,3,Bitters,1
+Flying Scotchman Cocktail,Cocktail Classics,3,Bitters,0.02
 Flying Scotchman Cocktail,Cocktail Classics,4,Sugar Syrup,0.25
 Flying Grasshopper Cocktail,Cocktail Classics,1,Old Mr. Boston Green Creme de Menthe,0.75
 Flying Grasshopper Cocktail,Cocktail Classics,2,Old Mr. Boston White Creme de Cacao,0.75
@@ -3198,29 +3198,29 @@ Harvest Nectar,Rum - Daiquiris,3,Cranberry Juice,1
 Harvest Nectar,Rum - Daiquiris,4,Orange juice,1
 Harvest Nectar,Rum - Daiquiris,5,Lemon-lime soda,1
 Fancy Brandy Cocktail,Cocktail Classics,1,Old Mr. Boston Five Star Brandy,2
-Fancy Brandy Cocktail,Cocktail Classics,2,Bitters,1
+Fancy Brandy Cocktail,Cocktail Classics,2,Bitters,0.02
 Fancy Brandy Cocktail,Cocktail Classics,3,Old Mr. Boston Triple Sec,0.25
 Fancy Brandy Cocktail,Cocktail Classics,4,Powdered Sugar,0.25
 Fallen Angel Cocktail,Cocktail Classics,1,Juice of a Lime,1
 Fallen Angel Cocktail,Cocktail Classics,2,Old Mr. Boston Dry Gin,1.5
-Fallen Angel Cocktail,Cocktail Classics,3,Bitters,1
+Fallen Angel Cocktail,Cocktail Classics,3,Bitters,0.02
 Fallen Angel Cocktail,Cocktail Classics,4,Old Mr. Boston White Creme de Menthe,0.5
 The Poncho,Tequila,1,Reposado tequila,2
 The Poncho,Tequila,2,Dry Vermouth,0.5
 The Poncho,Tequila,3,Maraschino liqueur,0.5
-The Poncho,Tequila,4,Peychaud's Bitters,2
+The Poncho,Tequila,4,Peychaud's Bitters,0.04
 Hai Karate,Rum - Daiquiris,1,Dark rum,2
 Hai Karate,Rum - Daiquiris,2,Fresh Lime Juice,1
 Hai Karate,Rum - Daiquiris,3,Pineapple Juice,1
 Hai Karate,Rum - Daiquiris,4,Orange juice,1
 Hai Karate,Rum - Daiquiris,5,Maple Syrup,1
-Hai Karate,Rum - Daiquiris,6,Angostura Bitters,1
+Hai Karate,Rum - Daiquiris,6,Angostura Bitters,0.02
 Cara Sposa,Brandy,1,Coffee-flavored brandy,1
 Cara Sposa,Brandy,2,Triple Sec,0.75
 Cara Sposa,Brandy,3,half-and-half,0.5
 Traditional Martini (Dry),Cocktail Classics,1,Gin,1
 Traditional Martini (Dry),Cocktail Classics,2,Dry Vermouth,1
-Traditional Martini (Dry),Cocktail Classics,3,Orange Bitters,1
+Traditional Martini (Dry),Cocktail Classics,3,Orange Bitters,0.02
 Pina Agave,Tequila,1,Cucumber,2
 Pina Agave,Tequila,2,Blanco tequila,1.5
 Pina Agave,Tequila,3,Pineapple Juice,1
@@ -3233,34 +3233,34 @@ Grande Guignol,Rum - Daiquiris,4,Fresh Lime Juice,0.75
 Pancho Villa,Tequila,1,Anejo tequila,1
 Pancho Villa,Tequila,2,Aperol,0.75
 Pancho Villa,Tequila,3,Sweet Vermouth,0.75
-Pancho Villa,Tequila,4,Peach bitters,1
+Pancho Villa,Tequila,4,Peach bitters,0.02
 Paloma (Natural),Tequila,1,Blanco tequila,2
 Paloma (Natural),Tequila,2,Fresh white or ruby red grapefruit juice,2
 Golden Friendship,Rum - Daiquiris,1,Light Rum,1
 Golden Friendship,Rum - Daiquiris,2,Sweet Vermouth,1
 Golden Friendship,Rum - Daiquiris,3,Amaretto,1
 Paloma,Tequila,1,Blanco tequila,2
-Pacific Sunshine,Tequila,1,"Lemon wheel, coarse salt",0.01
+Pacific Sunshine,Tequila,1,"Lemon wheel, coarse salt",NA
 Pacific Sunshine,Tequila,2,Blanco tequila,1.5
 Pacific Sunshine,Tequila,3,Blue curacao,1.5
 Pacific Sunshine,Tequila,4,Simple Syrup,0.75
 Pacific Sunshine,Tequila,5,Fresh lemon juice,0.75
-Pacific Sunshine,Tequila,6,Angostura Bitters,1
+Pacific Sunshine,Tequila,6,Angostura Bitters,0.02
 Golden Eclipse,Rum - Daiquiris,1,Dark rum,1.5
 Golden Eclipse,Rum - Daiquiris,2,Amaro,0.25
 Golden Eclipse,Rum - Daiquiris,3,Fresh lemon juice,0.5
-Golden Eclipse,Rum - Daiquiris,4,Orange Bitters,1
+Golden Eclipse,Rum - Daiquiris,4,Orange Bitters,0.02
 Golden Eclipse,Rum - Daiquiris,5,Sparkling apple cider,3
 Diplomat Cocktail,Cocktail Classics,1,Dry Vermouth,1.5
 Diplomat Cocktail,Cocktail Classics,2,Sweet Vermouth,0.5
-Diplomat Cocktail,Cocktail Classics,3,Bitters,2
+Diplomat Cocktail,Cocktail Classics,3,Bitters,0.04
 Diplomat Cocktail,Cocktail Classics,4,Maraschino,0.5
 Oldest Temptation,Tequila,1,Anejo tequila,2
 Oldest Temptation,Tequila,2,Apple juice,1
 Oldest Temptation,Tequila,3,Fresh lemon juice,0.5
 Oldest Temptation,Tequila,4,Triple Sec,0.5
 Oldest Temptation,Tequila,5,Simple Syrup,0.25
-Oldest Temptation,Tequila,6,"Angostura Bitters, flamed lemon twist",1
+Oldest Temptation,Tequila,6,"Angostura Bitters, flamed lemon twist",0.02
 Ginger Grapefruit Rickey,Rum - Daiquiris,1,Light Rum,2
 Ginger Grapefruit Rickey,Rum - Daiquiris,2,Fresh grapefruit juice,2
 Ginger Grapefruit Rickey,Rum - Daiquiris,3,Ginger liqueur,1
@@ -3268,14 +3268,14 @@ Ginger Grapefruit Rickey,Rum - Daiquiris,4,Fresh Lime Juice,0.5
 Calvados Cocktail,Brandy,1,Calvados,1.5
 Calvados Cocktail,Brandy,2,Orange juice,1.5
 Calvados Cocktail,Brandy,3,Triple Sec,0.75
-Calvados Cocktail,Brandy,4,Orange Bitters,1
+Calvados Cocktail,Brandy,4,Orange Bitters,0.02
 Daiquiri Cocktail,Cocktail Classics,1,Juice of a Lime,1
 Daiquiri Cocktail,Cocktail Classics,2,Powdered Sugar,1
 Daiquiri Cocktail,Cocktail Classics,3,Old Mr. Boston Rum,1.5
 The Oaxaca Old-Fashioned,Tequila,1,Reposado tequila,1.5
 The Oaxaca Old-Fashioned,Tequila,2,Mezcal,0.5
 The Oaxaca Old-Fashioned,Tequila,3,Agave nectar,0.25
-The Oaxaca Old-Fashioned,Tequila,4,Angostura Bitters,2
+The Oaxaca Old-Fashioned,Tequila,4,Angostura Bitters,0.04
 Cuban Special Cocktail,Cocktail Classics,1,Pineapple Juice,1
 Cuban Special Cocktail,Cocktail Classics,2,Juice of a Lime,0.5
 Cuban Special Cocktail,Cocktail Classics,3,Old Mr. Boston Rum,1
@@ -3289,14 +3289,14 @@ The Nomad South,Tequila,2,Orange juice,1
 The Nomad South,Tequila,3,Blood orange juice,0.5
 The Nomad South,Tequila,4,Agave nectar,0.5
 The Nomad South,Tequila,5,Fresh Lime Juice,0.5
-The Nomad South,Tequila,6,Whiskey barrel bitters,1
+The Nomad South,Tequila,6,Whiskey barrel bitters,0.02
 Creole Lady Cocktail,Cocktail Classics,1,Old Kentucky Tavern Bourbon Whiskey,1.5
 Creole Lady Cocktail,Cocktail Classics,2,Madeira,1.5
 Creole Lady Cocktail,Cocktail Classics,3,Grenadine,1
 No. 8,Tequila,1,Reposado tequila,2
 No. 8,Tequila,2,Palo cortado or oloroso sherry,0.75
 No. 8,Tequila,3,Honey liqueur,0.5
-No. 8,Tequila,4,Orange Bitters,2
+No. 8,Tequila,4,Orange Bitters,0.04
 Fog Cutter,Rum - Daiquiris,1,Light Rum,1.5
 Fog Cutter,Rum - Daiquiris,2,Brandy,0.5
 Fog Cutter,Rum - Daiquiris,3,Gin,0.5
@@ -3353,14 +3353,14 @@ Mexican Firing Squad,Tequila,1,Blanco tequila,2
 Mexican Firing Squad,Tequila,2,Simple Syrup,1
 Mexican Firing Squad,Tequila,3,Fresh Lime Juice,0.75
 Mexican Firing Squad,Tequila,4,pomegranate molasses (available at Middle Eastern grocers),1
-Mexican Firing Squad,Tequila,5,Angostura Bitters,2
+Mexican Firing Squad,Tequila,5,Angostura Bitters,0.04
 Mexicana,Tequila,1,Blanco tequila,0.5
 Mexicana,Tequila,2,Fresh lemon juice,1
 Mexicana,Tequila,3,Pineapple Juice,0.5
 Mexicana,Tequila,4,Grenadine,1
 El Presidente Cocktail No. 2,Rum - Daiquiris,1,Light Rum,1.5
 El Presidente Cocktail No. 2,Rum - Daiquiris,2,Dry Vermouth,0.75
-El Presidente Cocktail No. 2,Rum - Daiquiris,3,Angostura Bitters,1
+El Presidente Cocktail No. 2,Rum - Daiquiris,3,Angostura Bitters,0.02
 Margarita Tequila,Shooters,2,Blanco tequila,1.5
 Margarita Tequila,Shooters,3,Cointreau triple sec,0.75
 Margarita Tequila,Shooters,4,Fresh Lime Juice,0.75
@@ -3406,7 +3406,7 @@ High Plains Drifter No. 1,Tequila,1,Campari,1
 High Plains Drifter No. 1,Tequila,2,Blanco tequila,2
 High Plains Drifter No. 1,Tequila,3,Fresh Lime Juice,0.75
 High Plains Drifter No. 1,Tequila,4,Honey Syrup,0.75
-High Plains Drifter No. 1,Tequila,5,Angostura Bitters,1
+High Plains Drifter No. 1,Tequila,5,Angostura Bitters,0.02
 Hairy Sunrise,Tequila,1,Blanco tequila,0.75
 Hairy Sunrise,Tequila,2,Vodka,0.75
 Hairy Sunrise,Tequila,3,Triple Sec,0.5
@@ -3423,12 +3423,12 @@ Flower Power,Tequila,2,Grapefruit Juice,1
 Flower Power,Tequila,3,Agave nectar,0.5
 Flower Power,Tequila,4,Egg White,1
 Flower Power,Tequila,5,Orange blossom water,3
-Flower Power,Tequila,6,Peychaud's Bitters,2
+Flower Power,Tequila,6,Peychaud's Bitters,0.04
 Cablegram Highball,Cocktail Classics,1,Juice of a Lemon,0.5
 Cablegram Highball,Cocktail Classics,2,Powdered Sugar,1
 Cablegram Highball,Cocktail Classics,3,Old Thompson Blended Whiskey,2
 Cabaret Cocktail,Cocktail Classics,1,Old Mr. Boston Dry Gin,1.5
-Cabaret Cocktail,Cocktail Classics,2,Bitters,2
+Cabaret Cocktail,Cocktail Classics,2,Bitters,0.04
 Cabaret Cocktail,Cocktail Classics,3,Dry Vermouth,0.5
 Cabaret Cocktail,Cocktail Classics,4,Benedictine,0.25
 Bulla's Eye,Brandy,1,Brandy,1
@@ -3436,8 +3436,8 @@ Bulla's Eye,Brandy,2,Hard cider,2
 El Oso (The Bear),Tequila,1,Anejo tequila,1
 El Oso (The Bear),Tequila,2,Honey liqueur,0.75
 El Oso (The Bear),Tequila,3,Maraschino liqueur,0.5
-El Oso (The Bear),Tequila,4,The Bitter Truth's Jerry Thomas' Own Decanter Bitters,2
-El Ni_o,Tequila,1,Lime wedges,6
+El Oso (The Bear),Tequila,4,The Bitter Truth's Jerry Thomas' Own Decanter Bitters,0.04
+El Ni_o,Tequila,1,Lime wedges,NA
 El Ni_o,Tequila,2,Whole strawberry,1
 El Ni_o,Tequila,3,Simple Syrup,0.75
 El Ni_o,Tequila,4,Blanco tequila,2
@@ -3470,11 +3470,11 @@ Chupa Cabra,Tequila,2,Fresh grapefruit juice,0.75
 Chupa Cabra,Tequila,3,Fresh Lime Juice,0.5
 Chupa Cabra,Tequila,4,Campari,0.5
 Chupa Cabra,Tequila,5,Simple Syrup,0.5
-Chupa Cabra,Tequila,6,"Angostura Bitters, lime wheel",1
+Chupa Cabra,Tequila,6,"Angostura Bitters, lime wheel",0.02
 Chinchona,Tequila,1,Anejo tequila,1.5
 Chinchona,Tequila,2,Lillet Rouge,0.75
 Chinchona,Tequila,3,Orange curacao,0.5
-Chinchona,Tequila,4,Orange Bitters,2
+Chinchona,Tequila,4,Orange Bitters,0.04
 Chapala,Tequila,1,Reposado tequila,1.5
 Chapala,Tequila,2,Orange juice,1.5
 Chapala,Tequila,3,Fresh lemon juice,0.75
@@ -3494,7 +3494,7 @@ Catalina Margarita,Tequila,5,Fresh lemon juice,2
 Camino Del Ray,Tequila,1,Anejo tequila,1.75
 Camino Del Ray,Tequila,2,Oloroso sherry,1
 Camino Del Ray,Tequila,3,Drambuie,0.5
-Camino Del Ray,Tequila,4,Rhubarb bitters,1
+Camino Del Ray,Tequila,4,Rhubarb bitters,0.02
 Cactus Berry,Tequila,2,Blanco tequila,1.25
 Cactus Berry,Tequila,3,Red wine,1.25
 Cactus Berry,Tequila,4,"each Triple Sec, simple syrup",0.5
@@ -3510,7 +3510,7 @@ Bum's Rush,Tequila,4,Fresh Lime Juice,1
 Bum's Rush,Tequila,5,Fresh apple cider,1
 Brave Bull,Tequila,1,Blanco tequila,1.5
 Brave Bull,Tequila,2,Coffee liqueur,1
-Blue Margarita,Tequila,1,"Lime juice, coarse salt",0.01
+Blue Margarita,Tequila,1,"Lime juice, coarse salt",NA
 Blue Margarita,Tequila,2,Blanco tequila,1.5
 Blue Margarita,Tequila,3,Blue curacao,0.5
 Blue Margarita,Tequila,4,Fresh Lime Juice,1
@@ -3531,8 +3531,8 @@ Blood Bronx Cocktail,Cocktail Classics,2,Dry Vermouth,1.5
 Blood Bronx Cocktail,Cocktail Classics,3,Juice of a Blood Orange,0.25
 Bravo,Tequila,1,Anejo tequila,2
 Bravo,Tequila,2,Agave nectar,0.25
-Bravo,Tequila,3,Angostura Bitters,2
-Bravo,Tequila,4,Orange Bitters,1
+Bravo,Tequila,3,Angostura Bitters,0.04
+Bravo,Tequila,4,Orange Bitters,0.02
 Amante Picante,Tequila,1,Cucumber,2
 Amante Picante,Tequila,2,Fresh cilantro sprigs,2
 Amante Picante,Tequila,3,Blanco tequila,2
@@ -3562,14 +3562,14 @@ Yokahama Romance,Gin,4,Unsprayed rose petal,1
 Yale Cocktail,Gin,1,Gin,1.5
 Yale Cocktail,Gin,2,Dry Vermouth,0.5
 Yale Cocktail,Gin,3,Blue curacao,1
-Yale Cocktail,Gin,4,Angostura Bitters,1
+Yale Cocktail,Gin,4,Angostura Bitters,0.02
 Xanthia Cocktail,Gin,1,Gin,0.75
 Xanthia Cocktail,Gin,2,cherry-flavored brandy,0.75
 Xanthia Cocktail,Gin,3,Yellow Chartreuse,0.75
 Woodstock,Gin,1,Gin,1.5
 Woodstock,Gin,2,Fresh lemon juice,1
 Woodstock,Gin,3,Maple Syrup,1.5
-Woodstock,Gin,4,Orange Bitters,1
+Woodstock,Gin,4,Orange Bitters,0.02
 Wolf's Bite,Gin,1,Gin,1.5
 Wolf's Bite,Gin,2,Grapefruit Juice,1
 Wolf's Bite,Gin,3,Green Chartreuse,0.5
@@ -3584,18 +3584,18 @@ The Winkle,Gin,3,Fresh Lime Juice,1
 The Winkle,Gin,4,Limoncello,0.5
 The Winkle,Gin,5,Simple Syrup,0.5
 The Winkle,Gin,6,"Raspberries, lemon twist",4
-The Wink,Gin,1,Absinthe,1
+The Wink,Gin,1,Absinthe,0.1
 The Wink,Gin,2,Gin,2
 The Wink,Gin,3,Triple Sec,0.25
 The Wink,Gin,4,Simple Syrup,0.25
-The Wink,Gin,5,Peychaud's Bitters,2
+The Wink,Gin,5,Peychaud's Bitters,0.04
 Will Rogers,Gin,1,Gin,1.5
 Will Rogers,Gin,2,Dry Vermouth,0.5
 Will Rogers,Gin,3,Orange juice,0.5
 Will Rogers,Gin,4,Triple Sec,1
 Brandy Vermouth Cocktail,Brandy,1,Brandy,2
 Brandy Vermouth Cocktail,Brandy,2,Sweet Vermouth,0.5
-Brandy Vermouth Cocktail,Brandy,3,Angostura Bitters,1
+Brandy Vermouth Cocktail,Brandy,3,Angostura Bitters,0.02
 White Spider,Gin,1,Gin,1
 White Spider,Gin,2,Fresh lemon juice,0.75
 White Spider,Gin,3,Triple Sec,0.5
@@ -3622,7 +3622,7 @@ Water Lily,Gin,1,Gin,0.75
 Water Lily,Gin,2,Triple Sec,0.75
 Water Lily,Gin,3,Creme de violette,0.75
 Water Lily,Gin,4,Fresh lemon juice,0.75
-Wallis Blue Cocktail,Gin,1,"Lime wedge, superfine sugar",1
+Wallis Blue Cocktail,Gin,1,"Lime wedge, superfine sugar",NA
 Wallis Blue Cocktail,Gin,2,Gin,1
 Wallis Blue Cocktail,Gin,3,Triple Sec,1
 Wallis Blue Cocktail,Gin,4,Fresh Lime Juice,1
