@@ -1,0 +1,100 @@
+---
+title: "Toronto Homeless Shelters"
+author: "Amanda Luby"
+date: "#TidyTuesday"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(waffle)
+library(hrbrthemes)
+knitr::opts_chunk$set(echo = TRUE, fig.path = "plots/", fig.width = 8, fig.height =5)
+tuesdata <- tidytuesdayR::tt_load('2020-12-01')
+shelters <- tuesdata$shelters
+```
+
+# Cleaning + Formatting 
+
+```{r cleaning}
+shelters %>%
+  group_by(occupancy_date, program_name) %>%
+  summarize(
+    avg_occupancy = mean(occupancy),
+    avg_capacity = mean(capacity),
+    avg_occ_rate = mean(occupancy/capacity),
+    days_at_cap = sum(occupancy >= capacity),
+    close_to_cap = occupancy/capacity > .9
+  ) %>%
+  separate(occupancy_date, c("year", "month", "day"), sep = "-", remove = FALSE) %>%
+  group_by(occupancy_date) %>%
+  summarize(
+    shelters_at_cap = sum(days_at_cap, na.rm = T),
+    shelters_close = sum(close_to_cap, na.rm = T),
+    pct_at_cap = mean(days_at_cap, na.rm = T)
+  ) %>%
+  mutate(
+    year = format(occupancy_date, "%Y"),
+    week = as.integer(format(occupancy_date, "%W")) + 1,  
+    day = factor(weekdays(occupancy_date, T), 
+                 levels = rev(c("Mon", "Tue", "Wed", "Thu",
+                                "Fri", "Sat", "Sun")))) -> capacity_by_day
+```
+
+# Plot 1: Number of Shelters over capacity
+
+```{r daily-over-capacity}
+capacity_by_day %>%
+  ungroup() %>%
+  ggplot(aes(x = week, y = day, fill = shelters_at_cap)) +
+  geom_tile(col = "white", width = .9, height = .9) + 
+  facet_wrap(vars(year), strip.position = "top", nrow = 3) +
+  scale_fill_viridis_c("", option = "plasma", direction = -1, end = .9) +
+  scale_x_continuous(
+            expand = c(0, 0),
+            breaks = seq(1, 52, length = 12),
+            labels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                       "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
+  labs(
+    x = "",
+    y = "",
+    title = expression("Daily Number of Toronto Homeless Programs"~bold(At)~"or"~bold(Above)~"Capacity"),
+    subtitle = "Source: OpenDataToronto",
+    caption = "#TidyTuesday 12/1/2020"
+  ) +
+  theme_minimal(base_family = "Optima") +
+  theme(panel.grid = element_blank(),
+        legend.position = "bottom",
+        legend.key.width = unit(1, "cm"),
+        strip.text = element_text(hjust = .99, size = 12), 
+        strip.background = element_blank()) 
+```
+
+# Plot 2: Number of shelters at high capacity
+
+```{r daily-high-capacity, }
+capacity_by_day %>%
+  ungroup() %>%
+  ggplot(aes(x = week, y = day, fill = shelters_close)) +
+  geom_tile(col = "white", width = .9, height = .9) + 
+  facet_wrap(vars(year), strip.position = "top", nrow = 3) +
+  scale_fill_viridis_c("", option = "plasma", direction = -1, end = .9) +
+  scale_x_continuous(
+            expand = c(0, 0),
+            breaks = seq(1, 52, length = 12),
+            labels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                       "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
+  labs(
+    x = "",
+    y = "",
+    title = expression("Daily Number of Toronto Homeless Programs"~bold(above)~"90% Capacity"),
+    subtitle = "Source: OpenDataToronto",
+    caption = "#TidyTuesday 12/1/2020"
+  ) +
+  theme_minimal(base_family = "Optima") +
+  theme(panel.grid = element_blank(),
+        legend.position = "bottom",
+        legend.key.width = unit(1, "cm"),
+        strip.text = element_text(hjust = .99, size = 12), 
+        strip.background = element_blank()) 
+```
