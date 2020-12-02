@@ -4,7 +4,7 @@ My #TidyTuesday contributions (more to come...)
 
 ## Week of [12/1/2020](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-12-01/readme.md): Toronto Homeless Shelters
 
-![daily programs at high capacity](plots/daily-high-capacity-1.png/)
+![daily programs at high capacity](plots/daily-over-capacity-1.png/)
 
 [markdown file](https://github.com/aluby/TidyTuesday/blob/master/TorontoHomeless.Rmd) 
 
